@@ -4,11 +4,13 @@ on:
   push:
     paths:
       - 'scripts/build_dataset.py'
+      - 'scripts/run_build.py'
       - '.github/workflows/build_dataset.yml'
   pull_request:
     paths:
       - 'trigger/**'
       - 'scripts/build_dataset.py'
+      - 'scripts/run_build.py'
       - '.github/workflows/build_dataset.yml'
   workflow_dispatch:
 
@@ -37,7 +39,7 @@ jobs:
           pip install requests beautifulsoup4 matplotlib
 
       - name: Build dataset
-        run: python scripts/build_dataset.py
+        run: python scripts/run_build.py
 
       - name: Upload generated outputs
         if: always()
