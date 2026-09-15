@@ -5,6 +5,11 @@ on:
     paths:
       - 'scripts/build_dataset.py'
       - '.github/workflows/build_dataset.yml'
+  pull_request:
+    paths:
+      - 'trigger/**'
+      - 'scripts/build_dataset.py'
+      - '.github/workflows/build_dataset.yml'
   workflow_dispatch:
 
 permissions:
@@ -34,8 +39,21 @@ jobs:
       - name: Build dataset
         run: python scripts/build_dataset.py
 
-      - name: Commit generated outputs
+      - name: Upload generated outputs
         if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: prefecture-fund-dataset
+          path: |
+            README.md
+            raw/
+            processed/
+            charts/
+            prefecture_fund_investment_analysis.md
+          if-no-files-found: warn
+
+      - name: Commit generated outputs
+        if: github.event_name == 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
