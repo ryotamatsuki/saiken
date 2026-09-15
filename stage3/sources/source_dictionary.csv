@@ -1,0 +1,24 @@
+source_id,owner,title,scope,period_or_status,url,role
+STAT-R6-MIC,総務省・e-Stat,地方財政状況調査 表31「基金の状況・その1」,積立基金,令和6年度末,../../raw/FY2024_survey2025_table31.csv,R4-R6全国統一比較の基礎
+R7-FUKUSHIMA,福島県,公金の運用状況,基金,令和7年度実績,https://www.pref.fukushima.lg.jp/sec/55015a/koukin.html,R7平均残高・預金・債券・利回り
+R7-SAITAMA,埼玉県,令和7年度第4四半期・公金の運用状況について,基金・歳計現金等,令和7年度実績,https://www.pref.saitama.lg.jp/documents/9675/unyoujyokyo7-4.pdf,R7平均残高・預金・債券・利回り
+R7-CHIBA,千葉県,令和7年度公金の運用状況について,基金・歳計現金等,令和7年度実績,https://www.pref.chiba.lg.jp/suitou/unyou/joukyou202603.html,R7平均残高・預金・債券・利回り
+R7-TOKYO,東京都,令和7年度公金管理実績（年間及び第4四半期）,公金全体・基金等,令和7年度実績,https://www.metro.tokyo.lg.jp/information/press/2026/05/2026052909,R7平均残高・利回り・運用収入
+R8-TOKYO-PLAN,東京都,令和8年度公金管理計画,基金等,令和8年度計画／R7実績見込み併記,https://www.metro.tokyo.lg.jp/information/press/2026/03/2026033034,R7配分見込み・R8複合ラダー
+R7-SHIZUOKA,静岡県,令和7年度歳計現金及び基金の運用実績,基金・歳計現金,令和7年度実績,https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/030/351/shikinnunnyou.08.10.pdf,R7平均残高・預金・債券・商品別利回り
+R7-TOTTORI,鳥取県,基金の総額・運用実績,基金,令和7年度実績,https://www.pref.tottori.lg.jp/258342.htm,R7年度末残高・平均預金/債券・商品別利回り
+R7-FUKUOKA,福岡県,令和7年度の基金の運用状況,基金,令和7年度実績,https://www.pref.fukuoka.lg.jp/uploaded/life/834889_63010223_misc.pdf,R7年度末預金/債券残高・利回り・運用利子
+R7-HYOGO,兵庫県,令和7年度資金運用実績及び令和8年度資金運用計画,県資金管理全体,令和7年度実績,https://web.pref.hyogo.lg.jp/kk21/documents/r8keikaku.pdf,R7債券残高・購入銘柄・1-30年年限・平均購入年限
+R7-OSAKA,大阪府,第25回大阪府財務マネジメント委員会 資料7「資金運用の実績について」,公金全体,令和7年度見込み,https://www.pref.osaka.lg.jp/documents/126891/shiryo7.pdf,長期運用額・年限・商品構成
+R7-OITA,大分県,令和7年度 公金管理の実績について,基金等,令和7年度実績,https://www.pref.oita.jp/uploaded/attachment/2275311.pdf,基金平均残高・利回り・運用収入・20年ラダー
+R7-ISHIKAWA,石川県,令和7年度 資金運用結果について,基金・歳計現金等,令和7年度実績,https://www.pref.ishikawa.lg.jp/zaisei/data/koukinunyou/h28kikinunyou.html,基金平均運用額・運用益・利率
+R7-FUKUI,福井県,令和7年度の資金運用結果について,基金・歳計現金,令和7年度実績,https://www.pref.fukui.lg.jp/doc/shinsa/shikin.html,基金平均残高・運用利息
+R7-NIIGATA,新潟県,令和7年度の公金運用状況について,基金・歳計現金等,令和7年度実績,https://www.pref.niigata.lg.jp/site/suitou/reiwa7nendokoukinunyoujyoukyou.html,運用収入・債券利用の確認
+R7-TOYAMA,富山県,令和7年度決算及び基金運用状況審査意見書等,基金,令和7年度実績・方針,https://www.pref.toyama.jp/200/r7ikensho.html,対象債券拡大・年限長期化の方針
+R7-TOKUSHIMA,徳島県,徳島新未来創生総合計画（令和7年度版）,基金,令和7年度方針,https://www.pref.tokushima.lg.jp/file/attachment/993807.pdf,基金を活用した債券運用拡大方針
+R7-MIYAZAKI,宮崎県,県議会会議録・公金運用答弁,公金全体,令和7年8月末実績・年度見込み,https://www.pref.miyazaki.lg.jp/documents/104090/104090_20260218171541-1.pdf,年度途中預金/債券残高
+R7-KUMAMOTO,熊本県,公金運用実績・公金管理方針,公金全体,公表最新はR6／R7方針確認,https://www.pref.kumamoto.jp/soshiki/118/68486.html,一括運用・ラダー・商品範囲
+R7-OKINAWA,沖縄県,産業振興基金関係資料,特定基金,令和7年度,https://www.pref.okinawa.jp/shigoto/keizai/1009879/1009880/1010064.html,金利上昇後の債券購入再開事例
+LAW-LOCAL-AUTONOMY,e-Gov,地方自治法,基金・歳計現金,現行法,https://elaws.e-gov.go.jp/document?lawid=322AC0000000067,確実・効率的運用／確実・有利な保管の法的枠組み
+OECD-2025,OECD,Managing Government Cash: A Review of Practices in OECD Countries,政府キャッシュマネジメント,2025,https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/02/managing-government-cash_d47b35b7/7675eb58-en.pdf,キャッシュバッファ・予測・ガバナンスの理論整理
+WB-CASH,World Bank,Forecasting and Targeting Government Cash Balances,政府キャッシュマネジメント,2020,https://documents1.worldbank.org/curated/en/625511593411466514/pdf/Forecasting-and-Targeting-Government-Cash-Balances.pdf,流動性バッファ・キャッシュフロー予測
