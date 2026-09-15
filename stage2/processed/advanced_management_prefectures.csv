@@ -1,0 +1,13 @@
+﻿advanced_rank,prefecture,advanced_practice_score,disclosure_score,comparison_level,selection_reason,advanced_reason,caution
+1,東京都,9,18,A,bond_balance_numeric、government_bond_numeric、yield_numeric、income_numeric、maturity_info、ladder、lump_sum、risk_policy、recent_strengthening,公開資料で確認できた実務要素: bond_balance_numeric、government_bond_numeric、yield_numeric、income_numeric、maturity_info、ladder、lump_sum、risk_policy、recent_strengthening。,基金ベースの情報を中心に確認。
+2,大阪府,8,14,A,bond_balance_numeric、yield_numeric、income_numeric、maturity_info、ladder、committee、risk_policy、recent_strengthening,公開資料で確認できた実務要素: bond_balance_numeric、yield_numeric、income_numeric、maturity_info、ladder、committee、risk_policy、recent_strengthening。,公金全体ベースを含むため基金単独との直接比較に注意。
+3,大分県,7,15,D,yield_numeric、income_numeric、maturity_info、ladder、lump_sum、risk_policy、recent_strengthening,公開資料で確認できた実務要素: yield_numeric、income_numeric、maturity_info、ladder、lump_sum、risk_policy、recent_strengthening。,基金ベースの情報を中心に確認。
+4,静岡県,6,14,B,bond_balance_numeric、yield_numeric、income_numeric、maturity_info、lump_sum、risk_policy,公開資料で確認できた実務要素: bond_balance_numeric、yield_numeric、income_numeric、maturity_info、lump_sum、risk_policy。,基金ベースの情報を中心に確認。
+5,兵庫県,6,13,B,bond_balance_numeric、yield_numeric、maturity_info、ladder、committee、risk_policy,公開資料で確認できた実務要素: bond_balance_numeric、yield_numeric、maturity_info、ladder、committee、risk_policy。,公金全体ベースを含むため基金単独との直接比較に注意。
+6,埼玉県,6,13,B,bond_balance_numeric、yield_numeric、income_numeric、maturity_info、lump_sum、risk_policy,公開資料で確認できた実務要素: bond_balance_numeric、yield_numeric、income_numeric、maturity_info、lump_sum、risk_policy。,基金ベースの情報を中心に確認。
+7,福島県,5,11,B,bond_balance_numeric、yield_numeric、income_numeric、maturity_info、lump_sum,公開資料で確認できた実務要素: bond_balance_numeric、yield_numeric、income_numeric、maturity_info、lump_sum。,基金ベースの情報を中心に確認。
+8,千葉県,4,13,B,bond_balance_numeric、yield_numeric、income_numeric、risk_policy,公開資料で確認できた実務要素: bond_balance_numeric、yield_numeric、income_numeric、risk_policy。,基金ベースの情報を中心に確認。
+9,鳥取県,4,13,B,bond_balance_numeric、yield_numeric、income_numeric、risk_policy,公開資料で確認できた実務要素: bond_balance_numeric、yield_numeric、income_numeric、risk_policy。,基金ベースの情報を中心に確認。
+10,岡山県,4,11,D,maturity_info、ladder、lump_sum、risk_policy,公開資料で確認できた実務要素: maturity_info、ladder、lump_sum、risk_policy。,基金ベースの情報を中心に確認。
+11,茨城県,4,11,D,yield_numeric、income_numeric、lump_sum、risk_policy,公開資料で確認できた実務要素: yield_numeric、income_numeric、lump_sum、risk_policy。,基金ベースの情報を中心に確認。
+12,熊本県,4,10,D,maturity_info、ladder、lump_sum、risk_policy,公開資料で確認できた実務要素: maturity_info、ladder、lump_sum、risk_policy。,基金ベースの情報を中心に確認。
