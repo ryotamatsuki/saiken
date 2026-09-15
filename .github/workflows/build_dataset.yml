@@ -1,0 +1,48 @@
+name: Build prefectural fund dataset
+
+on:
+  push:
+    paths:
+      - 'scripts/build_dataset.py'
+      - '.github/workflows/build_dataset.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 matplotlib
+
+      - name: Build dataset
+        run: python scripts/build_dataset.py
+
+      - name: Commit generated outputs
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md raw processed charts prefecture_fund_investment_analysis.md || true
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+          else
+            git commit -m "Build prefectural fund investment dataset"
+            git push
+          fi
