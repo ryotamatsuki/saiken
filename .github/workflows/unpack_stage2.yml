@@ -1,4 +1,4 @@
-name: Unpack Stage 2 dataset
+name: Unpack Stage 2 public-only dataset
 
 on:
   push:
@@ -33,27 +33,42 @@ jobs:
           print(f'Extracted {len(data)} compressed bytes from {len(parts)} chunks')
           PY
 
-      - name: Validate Stage 2 outputs
+      - name: Validate Stage 2 public-only outputs
         run: |
+          test -f stage2/README.md
           test -f stage2/processed/prefecture_R7_R8_public_fund_investment_long.csv
           test -f stage2/processed/prefecture_R7_R8_disclosure_matrix.csv
           test -f stage2/processed/prefecture_R4_R8_integrated.csv
-          test -f stage2/processed/ehime_internal_data_required.csv
+          test -f stage2/processed/public_data_gaps.csv
           test -f stage2/processed/comparison_candidates.csv
           test -f stage2/processed/advanced_management_prefectures.csv
           test -f stage2/processed/QA.csv
           test -f stage2/reports/prefecture_R7_R8_public_fund_investment_analysis.md
           test -f stage2/sources/source_dictionary.csv
+          test -f stage2/sources/search_log.csv
+          test ! -f stage2/processed/ehime_internal_data_required.csv
           grep -q 'STAGE 2 COMPLETE' stage2/reports/prefecture_R7_R8_public_fund_investment_analysis.md
+          ! grep -R -E 'INTERNAL_DATA_REQUIRED|internal_required|ehime_internal_data_required' stage2
+          ! grep -q ',FAIL,' stage2/processed/QA.csv
+          python - <<'PY'
+          import pandas as pd
+          a=pd.read_csv('stage2/processed/prefecture_R7_R8_public_fund_investment_long.csv')
+          b=pd.read_csv('stage2/processed/prefecture_R7_R8_disclosure_matrix.csv')
+          c=pd.read_csv('stage2/processed/prefecture_R4_R8_integrated.csv')
+          assert len(a)==94 and a['prefecture'].nunique()==47
+          assert a.loc[a.fiscal_year==2025,'prefecture'].nunique()==47
+          assert a.loc[a.fiscal_year==2026,'prefecture'].nunique()==47
+          assert len(b)==47 and b['prefecture'].nunique()==47
+          assert len(c)==235
+          print('Stage 2 structural validation PASS')
+          PY
 
-      - name: Recompute Stage 2 checks
-        run: python stage2/scripts/recompute_checks.py
-
-      - name: Commit Stage 2 outputs
+      - name: Commit Stage 2 outputs and remove bootstrap
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add stage2
           git rm -r stage2_bootstrap
-          git commit -m "Add Stage 2 R7-R8 prefectural fund investment research"
+          git rm .github/workflows/unpack_stage2.yml
+          git commit -m "Add public-only Stage 2 R7-R8 prefectural fund research"
           git push
