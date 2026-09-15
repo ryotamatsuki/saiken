@@ -1,0 +1,12 @@
+{
+  "status": "DATASET COMPLETE",
+  "severe_issues": [],
+  "rows_long": 141,
+  "rows_wide": 47,
+  "ehime": {
+    "R6_securities_ratio_pct": 1.182785456317177,
+    "rank": 36,
+    "R4_R6_change_pt": -0.1476943453726931,
+    "change_rank": 32
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "2022": {
+    "01": {
+      "statinf_id": "000040171234",
+      "dataset_page": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040171234",
+      "download_url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040171234",
+      "listing_url": "https://www.e-stat.go.jp/stat-search/files?cycle=7&layout=datalist&month=0&result_back=1&tclass1=000001078091&tclass2=000001078092&tclass3val=0&toukei=00200251&tstat=000001077755&year=20230",
+      "encoding": "cp932",
+      "headers": [
+        "決算年度",
+        "業務コード",
+        "団体コード ",
+        "県名",
+        "団体名",
+        "団体区分",
+        "表番号",
+        "表名称",
+        "行番号",
+        "行名称",
+        "001:基準財政収入額（千円）",
+        "002:基準財政需要額（千円）",
+        "003:標準税収入額等（千円）",
+        "004:標準財政規模（千円）",
+        "005:臨時財政対策債発行可能額（千円）",
+        "006:財政力指数（2～4年度）"
+      ],
+      "source_columns": {
+        "standard_financial_scale_million_yen": "004:標準財政規模（千円）"
+      }
+    },
+    "02": {
+      "statinf_id": "000040171235",
+      "dataset_page": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040171235",
+      "download_url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040171235",
+      "listing_url": "https://www.e-stat.go.jp/stat-search/files?cycle=7&layout=datalist&month=0&result_back=1&tclass1=000001078091&tclass2=000001078092&tclass3val=0&toukei=00200251&tstat=000001077755&year=20230",
+      "encoding": "cp932",
+      "headers": [
+        "決算年度",
+        "業務コード",
+        "団体コード ",
+        "県名",
+        "団体名",
+        "団体区分",
+        "表番号",
+        "表名称",
+        "行番号",
+        "行名称",
+        "001:歳入総額",
+        "002:歳出総額",
+        "003:歳入歳出差引",
+        "004:翌年度に繰り越すべき財源",
+        "005:実質収支",
+        "006:単年度収支",
+        "007:積立金",
+        "008:繰上償還金",
+        "009:積立金取崩し額",
+        "010:実質単年度収支"
+      ],
+      "source_columns": {
+        "revenue_total_million_yen": "001:歳入総額",
+        "expenditure_total_million_yen": "002:歳出総額"
+      }
+    },
+    "31": {
+      "statinf_id": "000040171306",
+      "dataset_page": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040171306",
+      "download_url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040171306",
+      "listing_url": "https://www.e-stat.go.jp/stat-search/files?cycle=7&layout=datalist&month=0&result_back=1&tclass1=000001078091&tclass2=000001078092&tclass3val=0&toukei=00200251&tstat=000001077755&year=20230",
+      "encoding": "cp932",
+      "headers": [
+        "決算年度",
+        "業務コード",
+        "団体コード ",
+        "県名",
+        "団体名",
+        "団体区分",
+        "表番号",
+        "表名称",
+        "行番号",
+        "行名称",
+        "001:令和3年度末現在高",
+        "002:令和4年度・歳出決算額",
+        "003:令和4年度・取崩し額",
+        "004:令和4年度・歳計剰余金処分によるもの",
+        "005:調整額",
+        "006:令和4年度末現在高",
+        "007:6列の管理状況・現金・預金",
+        "008:6列の管理状況・信託",
+        "009:6列の管理状況・有価証券",
+        "010:6列の管理状況・有価証券・うち地方債",
+        "011:6列の管理状況・出資金",
+        "012:6列の管理状況・その他"
+      ],
+      "source_columns": {
+        "fund_total_million_yen": "006:令和4年度末現在高",
+        "fiscal_adjustment_fund_million_yen": "006:令和4年度末現在高",
+        "debt_reduction_fund_million_yen": "006:令和4年度末現在高",
+        "other_specific_funds_million_yen": "006:令和4年度末現在高",
+        "cash_deposit_million_yen": "007:6列の管理状況・現金・預金",
+        "trust_million_yen": "008:6列の管理状況・信託",
+        "securities_million_yen": "009:6列の管理状況・有価証券",
+        "local_bonds_million_yen": "010:6列の管理状況・有価証券・うち地方債",
+        "equity_contributions_million_yen": "011:6列の管理状況・出資金",
+        "source_other_million_yen": "012:6列の管理状況・その他",
+        "other_assets_million_yen": "011:6列の管理状況・出資金 + 012:6列の管理状況・その他"
+      }
+    }
+  },
+  "2023": {
+    "01": {
+      "statinf_id": "000040231578",
+      "dataset_page": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040231578",
+      "download_url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040231578",
+      "listing_url": "https://www.e-stat.go.jp/stat-search/files?cycle=7&layout=datalist&month=0&result_back=1&tclass1=000001078091&tclass2=000001078092&tclass3val=0&toukei=00200251&tstat=000001077755&year=20240",
+      "encoding": "cp932",
+      "headers": [
+        "決算年度",
+        "業務コード",
+        "団体コード ",
+        "県名",
+        "団体名",
+        "団体区分",
+        "表番号",
+        "表名称",
+        "行番号",
+        "行名称",
+        "001:基準財政収入額（千円）",
+        "002:基準財政需要額（千円）",
+        "003:標準税収入額等（千円）",
+        "004:標準財政規模（千円）",
+        "005:臨時財政対策債発行可能額（千円）",
+        "006:財政力指数（3～5年度）"
+      ],
+      "source_columns": {
+        "standard_financial_scale_million_yen": "004:標準財政規模（千円）"
+      }
+    },
+    "02": {
+      "statinf_id": "000040231579",
+      "dataset_page": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040231579",
+      "download_url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040231579",
+      "listing_url": "https://www.e-stat.go.jp/stat-search/files?cycle=7&layout=datalist&month=0&result_back=1&tclass1=000001078091&tclass2=000001078092&tclass3val=0&toukei=00200251&tstat=000001077755&year=20240",
+      "encoding": "cp932",
+      "headers": [
+        "決算年度",
+        "業務コード",
+        "団体コード ",
+        "県名",
+        "団体名",
+        "団体区分",
+        "表番号",
+        "表名称",
+        "行番号",
+        "行名称",
+        "001:歳入総額",
+        "002:歳出総額",
+        "003:歳入歳出差引",
+        "004:翌年度に繰り越すべき財源",
+        "005:実質収支",
+        "006:単年度収支",
+        "007:積立金",
+        "008:繰上償還金",
+        "009:積立金取崩し額",
+        "010:実質単年度収支"
+      ],
+      "source_columns": {
+        "revenue_total_million_yen": "001:歳入総額",
+        "expenditure_total_million_yen": "002:歳出総額"
+      }
+    },
+    "31": {
+      "statinf_id": "000040231750",
+      "dataset_page": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040231750",
+      "download_url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040231750",
+      "listing_url": "https://www.e-stat.go.jp/stat-search/files?cycle=7&layout=datalist&month=0&result_back=1&tclass1=000001078091&tclass2=000001078092&tclass3val=0&toukei=00200251&tstat=000001077755&year=20240",
+      "encoding": "cp932",
+      "headers": [
+        "決算年度",
+        "業務コード",
+        "団体コード ",
+        "県名",
+        "団体名",
+        "団体区分",
+        "表番号",
+        "表名称",
+        "行番号",
+        "行名称",
+        "001:令和4年度末現在高",
+        "002:令和5年度・歳出決算額",
+        "003:令和5年度・取崩し額",
+        "004:令和5年度・歳計剰余金処分によるもの",
+        "005:調整額",
+        "006:令和5年度末現在高",
+        "007:6列の管理状況・現金・預金",
+        "008:6列の管理状況・信託",
+        "009:6列の管理状況・有価証券",
+        "010:6列の管理状況・有価証券・うち地方債",
+        "011:6列の管理状況・出資金",
+        "012:6列の管理状況・その他"
+      ],
+      "source_columns": {
+        "fund_total_million_yen": "006:令和5年度末現在高",
+        "fiscal_adjustment_fund_million_yen": "006:令和5年度末現在高",
+        "debt_reduction_fund_million_yen": "006:令和5年度末現在高",
+        "other_specific_funds_million_yen": "006:令和5年度末現在高",
+        "cash_deposit_million_yen": "007:6列の管理状況・現金・預金",
+        "trust_million_yen": "008:6列の管理状況・信託",
+        "securities_million_yen": "009:6列の管理状況・有価証券",
+        "local_bonds_million_yen": "010:6列の管理状況・有価証券・うち地方債",
+        "equity_contributions_million_yen": "011:6列の管理状況・出資金",
+        "source_other_million_yen": "012:6列の管理状況・その他",
+        "other_assets_million_yen": "011:6列の管理状況・出資金 + 012:6列の管理状況・その他"
+      }
+    }
+  },
+  "2024": {
+    "01": {
+      "statinf_id": "000040374258",
+      "dataset_page": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040374258",
+      "download_url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040374258",
+      "listing_url": "https://www.e-stat.go.jp/stat-search/files?cycle=7&layout=datalist&month=0&result_back=1&tclass1=000001078091&tclass2=000001078092&tclass3val=0&toukei=00200251&tstat=000001077755&year=20250",
+      "encoding": "cp932",
+      "headers": [
+        "決算年度",
+        "業務コード",
+        "団体コード ",
+        "県名",
+        "団体名",
+        "団体区分",
+        "表番号",
+        "表名称",
+        "行番号",
+        "行名称",
+        "001:基準財政収入額（千円）",
+        "002:基準財政需要額（千円）",
+        "003:標準税収入額等（千円）",
+        "004:標準財政規模（千円）",
+        "005:臨時財政対策債発行可能額（千円）",
+        "006:財政力指数（4～6年度）"
+      ],
+      "source_columns": {
+        "standard_financial_scale_million_yen": "004:標準財政規模（千円）"
+      }
+    },
+    "02": {
+      "statinf_id": "000040374259",
+      "dataset_page": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040374259",
+      "download_url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040374259",
+      "listing_url": "https://www.e-stat.go.jp/stat-search/files?cycle=7&layout=datalist&month=0&result_back=1&tclass1=000001078091&tclass2=000001078092&tclass3val=0&toukei=00200251&tstat=000001077755&year=20250",
+      "encoding": "cp932",
+      "headers": [
+        "決算年度",
+        "業務コード",
+        "団体コード ",
+        "県名",
+        "団体名",
+        "団体区分",
+        "表番号",
+        "表名称",
+        "行番号",
+        "行名称",
+        "001:歳入総額",
+        "002:歳出総額",
+        "003:歳入歳出差引",
+        "004:翌年度に繰り越すべき財源",
+        "005:実質収支",
+        "006:単年度収支",
+        "007:積立金",
+        "008:繰上償還金",
+        "009:積立金取崩し額",
+        "010:実質単年度収支"
+      ],
+      "source_columns": {
+        "revenue_total_million_yen": "001:歳入総額",
+        "expenditure_total_million_yen": "002:歳出総額"
+      }
+    },
+    "31": {
+      "statinf_id": "000040374310",
+      "dataset_page": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040374310",
+      "download_url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040374310",
+      "listing_url": "https://www.e-stat.go.jp/stat-search/files?cycle=7&layout=datalist&month=0&result_back=1&tclass1=000001078091&tclass2=000001078092&tclass3val=0&toukei=00200251&tstat=000001077755&year=20250",
+      "encoding": "cp932",
+      "headers": [
+        "決算年度",
+        "業務コード",
+        "団体コード ",
+        "県名",
+        "団体名",
+        "団体区分",
+        "表番号",
+        "表名称",
+        "行番号",
+        "行名称",
+        "001:令和5年度末現在高",
+        "002:令和6年度・歳出決算額",
+        "003:令和6年度・取崩し額",
+        "004:令和6年度・歳計剰余金処分によるもの",
+        "005:調整額",
+        "006:令和6年度末現在高",
+        "007:6列の管理状況・現金・預金",
+        "008:6列の管理状況・信託",
+        "009:6列の管理状況・有価証券",
+        "010:6列の管理状況・有価証券・うち地方債",
+        "011:6列の管理状況・出資金",
+        "012:6列の管理状況・その他"
+      ],
+      "source_columns": {
+        "fund_total_million_yen": "006:令和6年度末現在高",
+        "fiscal_adjustment_fund_million_yen": "006:令和6年度末現在高",
+        "debt_reduction_fund_million_yen": "006:令和6年度末現在高",
+        "other_specific_funds_million_yen": "006:令和6年度末現在高",
+        "cash_deposit_million_yen": "007:6列の管理状況・現金・預金",
+        "trust_million_yen": "008:6列の管理状況・信託",
+        "securities_million_yen": "009:6列の管理状況・有価証券",
+        "local_bonds_million_yen": "010:6列の管理状況・有価証券・うち地方債",
+        "equity_contributions_million_yen": "011:6列の管理状況・出資金",
+        "source_other_million_yen": "012:6列の管理状況・その他",
+        "other_assets_million_yen": "011:6列の管理状況・出資金 + 012:6列の管理状況・その他"
+      }
+    }
+  }
+}

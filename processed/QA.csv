@@ -1,0 +1,7 @@
+﻿fiscal_year,check,status,value,details
+2022,prefecture_count,PASS,47,47 prefectures expected
+2022,unique_prefecture_year,PASS,47,prefecture × fiscal_year must be unique
+2023,prefecture_count,PASS,47,47 prefectures expected
+2023,unique_prefecture_year,PASS,47,prefecture × fiscal_year must be unique
+2024,prefecture_count,PASS,47,47 prefectures expected
+2024,unique_prefecture_year,PASS,47,prefecture × fiscal_year must be unique
