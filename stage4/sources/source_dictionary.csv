@@ -1,0 +1,25 @@
+source_id,owner,title,period,url,role
+STAT-R6-EHIME,総務省・e-Stat,地方財政状況調査 表31（R6愛媛県）,R6年度末基金資産構成,https://github.com/ryotamatsuki/saiken/blob/main/processed/prefecture_fund_investment_R4_R6.csv,基金総額・現預金・有価証券
+STAGE3-NATIONAL,ryotamatsuki/saiken,全国都道府県における基金・公金の債券運用実態,R7全国比較,https://github.com/ryotamatsuki/saiken/blob/main/stage3/reports/national_prefecture_public_fund_bond_investment_R7.md,全国ベンチマーク
+EHIME-FUND-R2,愛媛県,財政状況資料集 令和2年度 基金残高経年分析,R2基金,https://www.pref.ehime.jp/uploaded/attachment/48875.pdf,基金残高・積立取崩・方針
+EHIME-FUND-R3,愛媛県,財政状況資料集 令和3年度 基金残高経年分析,R3基金,https://www.pref.ehime.jp/uploaded/attachment/48860.pdf,基金残高・積立取崩・方針
+EHIME-FUND-R4,愛媛県,財政状況資料集 令和4年度 基金残高経年分析,R4基金,https://www.pref.ehime.jp/uploaded/attachment/111758.pdf,基金残高・積立取崩・方針
+EHIME-FUND-R5,愛媛県,財政状況資料集 令和5年度 基金残高経年分析,R5基金,https://www.pref.ehime.jp/uploaded/attachment/142265.pdf,基金残高・積立取崩・方針
+EHIME-FUND-R6,愛媛県,財政状況資料集 令和6年度 基金残高経年分析,R6基金,https://www.pref.ehime.jp/uploaded/attachment/176608.pdf,基金残高・積立取崩・方針
+EHIME-FS-R3,愛媛県,愛媛県の財務書類 令和3年度決算ベース,R3基金繰替運用,https://www.pref.ehime.jp/uploaded/attachment/48798.pdf,期間別・基金別繰替運用
+EHIME-FS-R4,愛媛県,愛媛県の財務書類 令和4年度決算ベース,R4基金繰替運用,https://www.pref.ehime.jp/uploaded/attachment/123406.pdf,期間別・基金別繰替運用
+EHIME-FS-R5,愛媛県,愛媛県の財務書類 令和5年度決算ベース,R5基金繰替運用,https://www.pref.ehime.jp/uploaded/attachment/145941.pdf,期間別・基金別繰替運用
+EHIME-FS-R6,愛媛県,愛媛県の財務書類 令和6年度決算ベース,R6基金繰替運用,https://www.pref.ehime.jp/uploaded/attachment/173306.pdf,期間別・基金別繰替運用
+EHIME-POLICY-2023,愛媛県,財政運営基本方針,R5～R8,https://www.pref.ehime.jp/uploaded/attachment/49061.pdf,財源対策用基金400億円規模・西日本豪雨183億円
+EHIME-PRESS-2026-07,愛媛県,令和8年度7月知事定例記者会見,2026-07-23,https://www.pref.ehime.jp/page/155026.html,R7財源対策用基金残高見込み436億円
+EHIME-ACCOUNTING-2026,愛媛県,会計課公式ページ,2026-09-15確認,https://www.pref.ehime.jp/soshiki/113/index.html,基金・歳計現金所管、R7基金全体の債券実績公表未確認
+OECD-2025,OECD,Managing Government Cash: A Review of Practices in OECD Countries,2025,https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/02/managing-government-cash_d47b35b7/7675eb58-en.pdf,cash buffer・cash forecasting
+WB-CASH,World Bank,Forecasting and Targeting Government Cash Balances,2020,https://documents1.worldbank.org/curated/en/625511593411466514/pdf/Forecasting-and-Targeting-Government-Cash-Balances.pdf,cash forecasting・liquidity strategy
+IMF-BUFFER,IMF,How to Set Up A Cash Buffer,2020,https://www.imf.org/en/Publications/Fiscal-Affairs-Department-How-To-Notes/Issues/2020/11/17/How-to-Set-Up-A-Cash-Buffer-A-Practical-Guide-to-Developing-and-Implementing-a-Cash-Buffer-49851,cash buffer
+IMF-SURPLUS,IMF,How to Develop a Framework for Investment of Temporary Government Cash Surpluses,2020,https://www.imf.org/en/Publications/Fiscal-Affairs-Department-How-To-Notes/Issues/2020/12/21/How-to-Develop-a-Framework-for-Investment-of-Temporary-Government-Cash-Surpluses-49954,surplus cash investment
+ZHAO-2016,Bo Zhao,Saving for a rainy day: Estimating the needed size of U.S. state budget stabilization funds,2016,https://www.sciencedirect.com/science/article/abs/pii/S0166046216301727,州別必要準備額
+HOU-2003,Yilin Hou,What Stabilizes State General Fund Expenditures in Downturn Years—Budget Stabilization Fund or General Fund Unreserved Undesignated Balance?,2003,https://onlinelibrary.wiley.com/doi/abs/10.1111/1540-5850.2303004,安定化基金の支出安定化
+WAGNER-ELDER-2005,Gary A. Wagner; Erick M. Elder,The Role of Budget Stabilization Funds in Smoothing Government Expenditures over the Business Cycle,2005,https://journals.sagepub.com/doi/10.1177/1091142105276442,制度ルールと安定化
+WEI-DENISON-2019,Wenchi Wei; Dwight V. Denison,State Rainy Day Funds and Government General Fund Expenditures: Revisiting the Stabilization Effect,2019,https://journals.sagepub.com/doi/10.1177/1091142118819991,実際の基金使用と安定化
+NUKPEZAH-2018,Julius A. Nukpezah,The effects of institutional typologies on the performance of state-sponsored local government investment pools,2018,https://www.tandfonline.com/doi/full/10.1080/09540962.2018.1434344,LGIP・制度類型・リスク管理
+WAGNER-2003,Gary A. Wagner,Are state budget stabilization funds only the illusion of savings?,2003,https://www.sciencedirect.com/science/article/abs/pii/S1062976901001326,基金勘定間代替性
