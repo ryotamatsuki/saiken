@@ -1,0 +1,1 @@
+Trigger the first-stage 47-prefecture fund investment dataset build from official MIC/e-Stat data for FY2022-FY2024.
