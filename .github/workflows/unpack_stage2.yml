@@ -21,13 +21,16 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
-          import tarfile
-          payload = Path('stage2_bootstrap/payload.tar.gz')
-          if not payload.exists():
-              raise SystemExit('Stage 2 payload not found')
-          with tarfile.open(payload, mode='r:gz') as tf:
-              tf.extractall(Path('.'))
-          print(f'Extracted {payload.stat().st_size} compressed bytes')
+          import base64, io, tarfile
+          root = Path('.')
+          parts = sorted((root / 'stage2_bootstrap').glob('chunk_*.txt'))
+          if not parts:
+              raise SystemExit('No Stage 2 bootstrap chunks found')
+          payload = ''.join(p.read_text(encoding='ascii').strip() for p in parts)
+          data = base64.b64decode(payload)
+          with tarfile.open(fileobj=io.BytesIO(data), mode='r:gz') as tf:
+              tf.extractall(root)
+          print(f'Extracted {len(data)} compressed bytes from {len(parts)} chunks')
           PY
 
       - name: Validate Stage 2 outputs
