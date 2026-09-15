@@ -1,0 +1,6 @@
+﻿prefecture,scope,period_type,data_status,avg_total_m_yen,cash_m_yen,cash_ratio_pct,bond_m_yen,bond_ratio_pct,income_m_yen,overall_yield_pct,deposit_yield_pct,bond_yield_pct,yield_spread_pt,source_url
+福島県,prefecture_funds,annual_average_actual,annual_actual,560678.049315,420042.980822,74.916966,140635.068493,25.083034,1629.896989,0.290701,0.259000,0.386000,0.127000,https://www.pref.fukushima.lg.jp/sec/55015a/koukin.html
+埼玉県,prefecture_funds,annual_average_actual,annual_actual,1360100.000000,476000.000000,34.997427,884100.000000,65.002573,8280.705000,0.609000,,,,https://www.pref.saitama.lg.jp/documents/9675/unyoujyokyo7-4.pdf
+千葉県,prefecture_funds,annual_average_actual,annual_actual,1254300.000000,500500.000000,39.902735,753800.000000,60.097265,6049.462000,0.482000,,,,https://www.pref.chiba.lg.jp/suitou/unyou/joukyou202603.html
+静岡県,prefecture_funds,annual_average_actual,annual_actual,883500.000000,338800.000000,38.347482,544700.000000,61.652518,4730.000000,0.535371,0.455000,0.664000,0.209000,https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/030/351/shikinnunnyou.08.10.pdf
+鳥取県,prefecture_funds,annual_average_actual,annual_actual,75500.000000,64000.000000,84.768212,11500.000000,15.231788,392.540000,0.519921,0.411000,1.125000,0.714000,https://www.pref.tottori.lg.jp/258342.htm

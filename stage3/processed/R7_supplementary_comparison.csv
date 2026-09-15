@@ -1,0 +1,7 @@
+﻿prefecture,scope,period_type,data_status,actual_average_balance_m_yen,allocation_base_m_yen,cash_m_yen,bond_m_yen,published_or_derived_bond_ratio_pct,long_term_avg_m_yen,overall_yield_pct,income_m_yen,comparison_note,source_url
+東京都,prefecture_funds,annual_actual_plus_R7_portfolio_estimate,mixed,3792100.000000,3790000.000000,2460000.000000,1330000.000000,35.000000,,0.553000,20973.500000,年間平均残高・利回り・収入は確定実績。配分はR8計画資料に掲載されたR7実績見込み（丸め値）。,https://www.metro.tokyo.lg.jp/information/press/2026/05/2026052909
+福岡県,prefecture_funds,year_end_actual,annual_actual,,926273.854000,232324.238000,693949.616000,74.918407,,0.715000,6987.116000,出納整理期間後年度末残高。平均残高ベースの5県とは別枠。,https://www.pref.fukuoka.lg.jp/contents/kikintumitatejyoukyou.html
+大阪府,prefecture_public_money,annual_forecast,forecast,892300.000000,,,,,290600.000000,0.442000,,"R7見込み。長期運用平均2,906億円を債券残高と同義にしない。",https://www.pref.osaka.lg.jp/documents/126891/shiryo7.pdf
+兵庫県,prefecture_public_money,annual_actual,annual_actual,840300.000000,840300.000000,610900.000000,229400.000000,27.299774,,0.636000,,基金単独ではなく資金管理全体。R7新規購入平均年限6.21年。,https://web.pref.hyogo.lg.jp/kk21/documents/r8keikaku.pdf
+宮崎県,public_money_combined,latest_actual_2025-08-31,interim,,182900.000000,130700.000000,52200.000000,28.540186,,,650.000000,年度途中かつ歳計現金・基金等を含む公金全体。運用益650百万円は基金の見込み。,https://www.pref.miyazaki.lg.jp/documents/104090/104090_20260218171541-1.pdf
+大分県,prefecture_funds,annual_actual,annual_actual,137026.053000,,,,,,0.615000,842.487000,基金平均残高・利回り・20年ラダーは確認可能。債券残高は本調査で確認できず。,https://www.pref.oita.jp/uploaded/attachment/2275311.pdf
