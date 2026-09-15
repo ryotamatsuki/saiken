@@ -1,8 +1,10 @@
 source_id,owner,title,scope,period_or_status,url,role
 STAT-R6-MIC,総務省・e-Stat,地方財政状況調査 表31「基金の状況・その1」,積立基金,令和6年度末,../../raw/FY2024_survey2025_table31.csv,R4-R6全国統一比較の基礎
-R7-FUKUSHIMA,福島県,公金の運用状況,基金,令和7年度実績,https://www.pref.fukushima.lg.jp/sec/55015a/koukin.html,R7平均残高・預金・債券・利回り
+R6-SAITAMA,埼玉県,令和6年度第4四半期・公金の運用状況について,基金・歳計現金等,令和6年度実績,https://www.pref.saitama.lg.jp/documents/9675/unyoujyokyo6-4.pdf,R6基金平均残高・預金・債券・利回り
 R7-SAITAMA,埼玉県,令和7年度第4四半期・公金の運用状況について,基金・歳計現金等,令和7年度実績,https://www.pref.saitama.lg.jp/documents/9675/unyoujyokyo7-4.pdf,R7平均残高・預金・債券・利回り
+R6-CHIBA,千葉県,令和6年度公金の運用状況について,基金・歳計現金等,令和6年度実績,https://www.pref.chiba.lg.jp/suitou/unyou/joukyou202503.html,R6基金平均残高・預金・債券・利回り
 R7-CHIBA,千葉県,令和7年度公金の運用状況について,基金・歳計現金等,令和7年度実績,https://www.pref.chiba.lg.jp/suitou/unyou/joukyou202603.html,R7平均残高・預金・債券・利回り
+R7-FUKUSHIMA,福島県,公金の運用状況,基金,令和7年度実績,https://www.pref.fukushima.lg.jp/sec/55015a/koukin.html,R7平均残高・預金・債券・利回り
 R7-TOKYO,東京都,令和7年度公金管理実績（年間及び第4四半期）,公金全体・基金等,令和7年度実績,https://www.metro.tokyo.lg.jp/information/press/2026/05/2026052909,R7平均残高・利回り・運用収入
 R8-TOKYO-PLAN,東京都,令和8年度公金管理計画,基金等,令和8年度計画／R7実績見込み併記,https://www.metro.tokyo.lg.jp/information/press/2026/03/2026033034,R7配分見込み・R8複合ラダー
 R7-SHIZUOKA,静岡県,令和7年度歳計現金及び基金の運用実績,基金・歳計現金,令和7年度実績,https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/030/351/shikinnunnyou.08.10.pdf,R7平均残高・預金・債券・商品別利回り
@@ -20,5 +22,6 @@ R7-MIYAZAKI,宮崎県,県議会会議録・公金運用答弁,公金全体,令�
 R7-KUMAMOTO,熊本県,公金運用実績・公金管理方針,公金全体,公表最新はR6／R7方針確認,https://www.pref.kumamoto.jp/soshiki/118/68486.html,一括運用・ラダー・商品範囲
 R7-OKINAWA,沖縄県,産業振興基金関係資料,特定基金,令和7年度,https://www.pref.okinawa.jp/shigoto/keizai/1009879/1009880/1010064.html,金利上昇後の債券購入再開事例
 LAW-LOCAL-AUTONOMY,e-Gov,地方自治法,基金・歳計現金,現行法,https://elaws.e-gov.go.jp/document?lawid=322AC0000000067,確実・効率的運用／確実・有利な保管の法的枠組み
+IMF-CASH-2020,IMF,How to Set Up A Cash Buffer: A Practical Guide to Developing and Implementing a Cash Buffer Policy,政府キャッシュマネジメント,2020,https://www.imf.org/en/publications/fiscal-affairs-department-how-to-notes/issues/2020/12/21/how-to-set-up-a-cash-buffer-a-practical-guide-to-developing-and-implementing-a-cash-buffer-49955,キャッシュバッファ・資金フロー変動・資金調達リスク
 OECD-2025,OECD,Managing Government Cash: A Review of Practices in OECD Countries,政府キャッシュマネジメント,2025,https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/02/managing-government-cash_d47b35b7/7675eb58-en.pdf,キャッシュバッファ・予測・ガバナンスの理論整理
 WB-CASH,World Bank,Forecasting and Targeting Government Cash Balances,政府キャッシュマネジメント,2020,https://documents1.worldbank.org/curated/en/625511593411466514/pdf/Forecasting-and-Targeting-Government-Cash-Balances.pdf,流動性バッファ・キャッシュフロー予測
