@@ -51,15 +51,18 @@ jobs:
           ! grep -R -E 'INTERNAL_DATA_REQUIRED|internal_required|ehime_internal_data_required' stage2
           ! grep -q ',FAIL,' stage2/processed/QA.csv
           python - <<'PY'
-          import pandas as pd
-          a=pd.read_csv('stage2/processed/prefecture_R7_R8_public_fund_investment_long.csv')
-          b=pd.read_csv('stage2/processed/prefecture_R7_R8_disclosure_matrix.csv')
-          c=pd.read_csv('stage2/processed/prefecture_R4_R8_integrated.csv')
-          assert len(a)==94 and a['prefecture'].nunique()==47
-          assert a.loc[a.fiscal_year==2025,'prefecture'].nunique()==47
-          assert a.loc[a.fiscal_year==2026,'prefecture'].nunique()==47
-          assert len(b)==47 and b['prefecture'].nunique()==47
-          assert len(c)==235
+          import csv
+          def read_rows(path):
+              with open(path, encoding='utf-8-sig', newline='') as f:
+                  return list(csv.DictReader(f))
+          a = read_rows('stage2/processed/prefecture_R7_R8_public_fund_investment_long.csv')
+          b = read_rows('stage2/processed/prefecture_R7_R8_disclosure_matrix.csv')
+          c = read_rows('stage2/processed/prefecture_R4_R8_integrated.csv')
+          assert len(a) == 94 and len({r['prefecture'] for r in a}) == 47
+          assert len({r['prefecture'] for r in a if r['fiscal_year'] == '2025'}) == 47
+          assert len({r['prefecture'] for r in a if r['fiscal_year'] == '2026'}) == 47
+          assert len(b) == 47 and len({r['prefecture'] for r in b}) == 47
+          assert len(c) == 235
           print('Stage 2 structural validation PASS')
           PY
 
