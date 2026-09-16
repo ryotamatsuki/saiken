@@ -1,0 +1,19 @@
+peer_type,prefecture,selection_basis,R6_standard_financial_scale_oku_yen,R6_fund_total_oku_yen,R6_fund_to_standard_scale_pct,R6_securities_ratio_pct,R6_cash_ratio_pct,R7_public_status,R7_avg_fund_balance_oku_yen,R7_yield_pct,R7_bond_ratio_pct,R7_management_or_disclosure,source_ids,notes
+official_C,北海道,財政力指数Cグループ,,,,,,partial,,,,各種基金で地方債等の債券運用を実施することは確認できるが基金全体のR7比較可能比率は未確認,EHIME-R6-FISCAL-COMP;HOKKAIDO-R7-PARTIAL,「公表なし」を「保有なし」としない
+Official_C,石川県,財政力指数Cグループ,,,,,,annual_actual,1674.0,0.252,,譲渡性預金・大口定期預金・債券。基金は県の日々の資金繰りにも繰替使用,R7-ISHIKAWA,平均運用額最大2494億円・最小855億円
+Official_C,新潟県,財政力指数Cグループ,,,,,,annual_actual,,,,預金及び国債等。R7途中から基金一括運用を開始し運用収入19.051億円,R7-NIIGATA;NIIGATA-POLICY-2025,債券残高・基金平均残高は統一表で未確認
+Official_C,富山県,財政力指数Cグループ,,,,,,partial,,,,短期資金は預金、長期資金は10年中心の国債等。R7に対象債券拡大・年限長期化を検討,R7-TOYAMA,基金全体のR7債券比率は未確認
+Official_C,香川県,財政力指数Cグループ,2749.45203,821.11452,29.86466,0.0,100.0,searched_not_found,,,,R7基金全体の比較可能な運用実績を確認できず,STAT-R6-MIC;KAGAWA-R7-GAP,R6は全国統一統計で有価証券0
+Official_C,山口県,財政力指数Cグループ,,,,,,searched_not_found,,,,基金は繰替運用後の残額を定期性預金等で運用する方針が公表。R7比較可能数値は未確認,YAMAGUCHI-CASH-POLICY;YAMAGUCHI-R7-GAP,債券比率ゼロと推定しない
+Official_C,愛媛県,財政力指数Cグループ,3713.59956,1302.27675,35.06778,1.18279,98.81721,searched_not_found,,,,R7基金全体の債券残高・利回り・年限等の比較可能な公開実績は未確認,STAT-R6-EHIME;EHIME-R6-FISCAL-COMP;EHIME-ACCOUNTING-2026,R6値をR7実績として代用しない
+Official_C,熊本県,財政力指数Cグループ,,,,,,policy_latest_R6,,,,歳計現金等と基金を一括運用。21年以内・満期保有原則・定額ラダー・債券上限1000億円,R7-KUMAMOTO;KUMAMOTO-POLICY,詳細実績の公表最新はR6
+Official_C,福井県,財政力指数Cグループ,,,,,,annual_actual,1602.24,0.33039,,預金及び債券。基金運用利息5.2937億円,R7-FUKUI,利回りは公表分母分子から本調査計算
+Official_C,奈良県,財政力指数Cグループ,,,,,,searched_not_found,,,,R7基金全体の債券残高・利回り等を比較可能な公表資料は未確認,NARA-R7-GAP,「公表なし」を「保有なし」としない
+Official_C,山梨県,財政力指数Cグループ,,,,,,latest_R6_only,1398.96,0.301,,国債・地方債・大口定期・譲渡性預金・普通預金等。公式ページ掲載実績はR6まで,YAMANASHI-R6,R7実績は未確認
+ALM_peer,徳島県,R6全国統一データ6変数Z標準化ユークリッド距離1位,2605.20066,981.48121,37.67392,0.71984,99.23200,policy_only,,,,総合計画で基金を活用した債券運用拡大を明記,R7-TOKUSHIMA,愛媛からのdistance score 0.30562
+ALM_peer,香川県,R6全国統一データ6変数Z標準化ユークリッド距離2位,2749.45203,821.11452,29.86466,0.0,100.0,searched_not_found,,,,R7比較可能数値未確認,KAGAWA-R7-GAP,愛媛からのdistance score 0.43868
+ALM_peer,青森県,R6全国統一データ6変数Z標準化ユークリッド距離3位,3826.34998,1621.77973,42.38451,2.00089,97.93956,searched_not_found,,,,R7基金全体の比較可能な債券比率等は未確認,STAGE2-COMPARISON-CANDIDATES,愛媛からのdistance score 0.46637
+ALM_peer,沖縄県,R6全国統一データ6変数Z標準化ユークリッド距離4位,4188.42692,1681.61949,40.14919,5.58881,94.41119,partial,,,,対象基金で国債等による債券運用を再開・分散,R7-OKINAWA,愛媛からのdistance score 0.48335
+ALM_peer,和歌山県,R6全国統一データ6変数Z標準化ユークリッド距離5位,3102.05791,824.57827,26.58165,0.0,100.0,policy_only,,,,基金は預金を基本とし県債管理基金の一部で地方債等を活用,STAGE3-MANAGEMENT,愛媛からのdistance score 0.56001
+ALM_peer,群馬県,R6全国統一データ6変数Z標準化ユークリッド距離6位,4704.78105,1230.62568,26.15692,1.62272,98.32023,searched_not_found,,,,R7基金全体の比較可能数値は本調査で未確認,STAGE2-COMPARISON-CANDIDATES,愛媛からのdistance score 0.57905
+ALM_peer,三重県,R6全国統一データ6変数Z標準化ユークリッド距離7位,4586.94146,1184.16029,25.81590,2.04676,97.95324,policy_only,,,,単年度・中長期資金計画を用い国庫短期証券を新たに導入し債券割合を拡大,STAGE3-MANAGEMENT,愛媛からのdistance score 0.58990
