@@ -1,0 +1,9 @@
+factor_id,factor,classification,confirmed_fact,evidence_scope,causal_assessment,confidence,main_sources,final_report_treatment
+A,安全資産利回りの復活,macro_rate_environment,2024年3月マイナス金利終了後に政策金利は0-0.1%→0.25%→0.5%→0.75%→1.0%へ上昇。10年国債金利も上昇,全国マクロ＋一部自治体,strongly_supported,high,BOJ-POLICY-2024-03;BOJ-POLICY-2024-07;BOJ-POLICY-2025-01;BOJ-POLICY-2025-12;BOJ-POLICY-2026-06;MOF-JGB-2025;MOF-JGB-2026,事実と考察を分離。金利上昇は事実、保有急増への寄与は考察
+B,日銀国債買入れ減額とYCC撤廃,market_structure,日銀はYCC終了後に長期国債買入れを5.7兆円/月程度から2.9兆円、さらに2.5兆円程度へ減額,全国マクロ,plausible_and_supported,medium_high,BOJ-POLICY-2024-07;BOJ-POLICY-2025-06,国債金利上昇の背景の一つとして記述。自治体購入増への寄与率は断定しない
+C,預金との相対採算性,relative_return,1年定期平均金利も2024/3 0.005%→2026/6 0.381%へ上昇。東京都は預金より相対的に利回りが見込める債券の活用を説明,全国預金ベンチマーク＋東京都,partially_supported,medium_high,BOJ-DEPOSIT-RATES;TOKYO-R7-PLAN;TOKYO-ASSEMBLY-2025,同年限比較が必要。預金金利上昇も必ず併記
+D,運用規程・体制整備,institutional_capacity,東京都は債券割合引上げ・短期債拡大、武蔵野市はR7/2資金管理方針改正・一括運用・満期保有・分散、春日井市はR6/9債券運用開始,個別自治体,plausible_mechanism,medium_high,TOKYO-R7-PLAN;MUSASHINO-POLICY-2025;KASUGAI-BOND-2024,金利上昇が制度変更の便益を高めた可能性として考察
+E,満期分散・ラダー導入,alm_infrastructure,東京都は短中長期の段階運用とR8複合ラダー、兵庫県はR7新規668億円を1-30年に分散,個別自治体,supported_mechanism,high,TOKYO-R8-PLAN;HYOGO-R7-INVESTMENT,債券保有増を可能にする実務インフラとして記述
+F,公共債全般への運用高度化,product_diversification,自治体は国債以外に地方債・政府保証債・JFM債・財投機関債・UR債・道路債等も利用,個別自治体,strongly_supported,high,KASUGAI-BOND-2024;HYOGO-R7-INVESTMENT;TOKYO-ASSEMBLY-2025,国債だけへのシフトという表現を避ける
+G,全国一律の債券比率上昇,nationwide_bond_ratio,埼玉はR6 66.6%→R7 65.0%、千葉は60.0%→60.1%で全国マクロ急増と必ずしも一致しない,比較可能県,not_supported_as_universal_claim,high,STAGE3-NATIONAL,反証として明記
+H,資金循環統計の100倍,statistical_measure,地方公共団体部門の国債・財投債保有残高が2025/3 163億円→2026/3 約1.6兆円。系列は推計・時価ベース,全国マクロ,confirmed_stock_change_with_caveat,high,NIKKEI-2026-09-13;BOJ-FFA-METHOD,「購入額100倍」ではなく「保有残高約100倍」と記述
