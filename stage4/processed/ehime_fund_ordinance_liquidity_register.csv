@@ -1,0 +1,31 @@
+fund_name,status_2026_09,public_purpose_or_rule,explicit_floor_target_or_horizon,current_or_recent_public_amount,R8_withdrawal_oku_yen,public_facts_for_liquidity,alm_interpretation,recommended_maturity_bucket,source_ids,confidence
+財政基盤強化積立金,active,財政運営上の財源対策に使用,県債管理基金と合わせ財源対策用基金400億円規模を安定確保,R7末財源対策用基金436億円見込み,107.00000,400億円は政策上の財政バッファでR8にも大規模取崩予算,400億円相当の政策バッファを県債管理基金と合算して高流動性でring-fence,cash/near-cash/<=1y,EHIME-POLICY-2023;EHIME-PRESS-2026-07;EHIME-BUDGET-R8-EXPLANATION,high
+県債管理基金,active,県債償還等の財源・財源対策用基金の一部,財政基盤強化積立金と合わせ400億円規模を安定確保,R7末財源対策用基金436億円見込み,37.56450,R8に県債管理基金から37.56億円の繰入予算,償還カレンダーと政策バッファを両方満たすよう満期対応,cash/<=1y/1-3y matched,EHIME-POLICY-2023;EHIME-PRESS-2026-07;EHIME-BUDGET-R8-EXPLANATION,high
+災害救助基金,active_statutory,災害救助法に基づく救助費用財源,原則として直近3年間の普通税収入決算額平均年額×0.5%が各年度最少額,現行最少額は普通税のR3-R5等内訳計算が必要,,法は最少額を定め運用を預金・国債地方債等の確実な債券・救助物資事前購入に限定,法定最少額以上を維持し需要時期に合わせた短期安全債は利用可能,cash/near-cash/short safe bonds,DISASTER-RELIEF-ACT,high
+災害に強い愛媛づくり基金,active,南海トラフ等大規模災害に備え生命財産保護・被害軽減,公表条例等で固定最低額は未確認,R6末65.15億円,7.84577,R8でも防災減災事業に取崩予定,平時支出に加えストレス時即応性を持つため長期固定を抑制,cash/near-cash/<=1y,EHIME-FUND-R6;EHIME-BUDGET-R8-EXPLANATION,high
+職員退職手当基金,active,退職手当負担の年度間平準化,固定最低額は未確認,R8取崩37億円,37.00000,退職予定は人員年齢構成から予見可能でR8に大規模取崩予算,今後1-3年の退職手当予測に満期を合わせ超過部分のみ中期化,cash/<=1y/1-3y matched,EHIME-BUDGET-R8-EXPLANATION;EHIME-AUDIT-H23-FUNDS,medium_high
+県有施設維持管理基金,active,県有施設の維持管理財源を安定確保,固定最低額は未確認,R8取崩1.73億円,1.73213,R8予算で公園・動物園等の維持管理に取崩,翌年度までの確定維持管理費と繰替利用を高流動性で確保,cash/<=1y,EHIME-BUDGET-R8-EXPLANATION;EHIME-AUDIT-H23-FUNDS,high
+県有施設更新整備基金,active,県有施設の改修・建替・更新整備,固定最低額は未確認,R6末165.32億円,22.42660,R8に新居浜警察署・県立図書館等の更新整備へ取崩,工事工程・支払予定を負債側に登録し1-5年で満期マッチング,<=1y/1-3y/3-5y matched,EHIME-FUND-R6;EHIME-BUDGET-R8-EXPLANATION;EHIME-POLICY-2023,high
+県立学校教育環境整備基金,active,県立学校施設・教育環境整備,固定最低額は未確認,R6末132.27億円,27.46937,R8に空調・実習船・校舎・LED・ICT等へ大規模取崩,既決定整備工程はcoreから除外し支払年度までの短中期満期へ,<=1y/1-3y,EHIME-FUND-R6;EHIME-BUDGET-R8-EXPLANATION,high
+デジタル社会形成推進基金,active_declining,デジタル社会形成・各種システム整備,固定最低額は未確認,R6末66.52億円,13.95915,R3末130億円から残高低下しR8にも約13.96億円取崩,逓減型事業基金として長期core扱いせず導入更新工程に合わせる,cash/<=1y/1-3y,EHIME-FUND-R6;EHIME-BUDGET-R8-EXPLANATION,high
+森林環境保全基金,active_earmarked,森林環境保全・森林整備等,固定最低額は未確認,R8取崩8.20億円,8.19662,R8に多数の森林・自然環境事業へ取崩,年度税収・交付財源と年度事業のpass-through部分を高流動性化,cash/<=1y,EHIME-BUDGET-R8-EXPLANATION,medium_high
+地域環境保全基金,active,地域環境保全活動と災害廃棄物の迅速適切な処理,条例上の基金額4億円・追加積立可能,当初基金額4億円＋寄附累計1406.5万円,0.62033,条例は目的事業に必要な場合に全部又は一部処分可能,条例4億円を法定最低額とはみなさずR8事業と災害廃棄物即応分を流動性確保,cash/<=1y,EHIME-REGIONAL-ENV-FUND;EHIME-BUDGET-R8-EXPLANATION,high
+資源循環促進基金,active_earmarked,資源循環・廃棄物減量リサイクル等,固定最低額は未確認,R8取崩2.60億円,2.59961,R8に資源循環関連事業へ取崩,年度事業分はcash/短期、残余も次期事業計画確認前に長期化しない,cash/<=1y,EHIME-BUDGET-R8-EXPLANATION;EHIME-AUDIT-H23-FUNDS,medium
+地域医療介護総合確保基金,active_grant_program,地域医療構想・医療介護提供体制整備,終了時期は設定されていない,医療分約64.73億円（R8-05-31）,34.21152,毎年度計画により医療介護事業へ大規模支出,承認済み当年度・翌年度事業を高流動性にし残余は1-3年中心,cash/<=1y/1-3y,EHIME-MEDICAL-CARE-FUND;EHIME-BUDGET-R8-EXPLANATION,high
+後期高齢者医療財政安定化基金,active_statutory,広域連合の保険料収納不足・給付費見込誤り等への貸付交付,終了時期の設定なし,年度別公表あり,,国・県・広域連合各1/3負担で財政不足時に貸付交付,ストレス対応基金として長期core化を避け必要貸付余力を高流動性維持,cash/near-cash/<=1y,EHIME-ELDERLY-MED-STAB,high
+国民健康保険財政安定化基金,active_statutory,国民健康保険財政の安定的運営,終了時期は設定されていない,造成完了時残高66.17497億円（公表資料）, ,財源不足発生時に貸付・交付する法定基金,制度上の貸付交付余力を高流動性で維持し余裕分のみ短期安全運用,cash/near-cash/<=1y,EHIME-NHI-STAB,high
+介護保険財政安定化基金,active_statutory,介護保険財政の安定化,固定最低額は今回の公表調査では未確定,R8利子収入1.099億円相当予算,,市町等の介護保険財政安定化に備える基金,制度上の貸付交付需要を確認するまで長期core扱いしない,cash/near-cash/<=1y,EHIME-BUDGET-R8-EXPLANATION;EHIME-AUDIT-H23-FUNDS,medium
+安心こども基金,active_sunset,保育所緊急整備等子育て支援緊急対策,新規採択R11年度末・基金解散R12年6月末,公表残高7.97406億円,0.38550,終了時期が明示され残額は事業終期までに使用精算,最終解散日を超える満期は禁止し採択済事業支払予定へ満期を合わせる,cash/<=1y/<=sunset,EHIME-ANSHIN-KODOMO;EHIME-BUDGET-R8-EXPLANATION,high
+公立学校情報機器整備基金,active_sunset,1人1台端末・入出力支援装置等の情報機器整備,R6-R10事業・R11-03-31基金廃止・残額国庫納付,R5積立8.36269億円,0.03473,条例概要で事業期間と廃止日を明記,満期はR10支払工程以内に限定しR11以降長期債は不可,<=1y/1-3y no later than R10,EHIME-SCHOOL-DEVICE-FUND;EHIME-BUDGET-R8-EXPLANATION,high
+県立高等学校等教育改革推進基金,active_fixed_horizon,県立高校等の教育改革推進,R8-R10事業期間,積立0.6億円（条例概要）,0,国事業の期間が3年に限定,3年以内の事業支出へ完全マッチし長期core対象外,<=3y,EHIME-HIGHSCHOOL-REFORM-FUND;EHIME-BUDGET-R8-EXPLANATION,high
+官民共創推進基金,active_new,官民共創で課題解決し未来創生の安定財源確保,固定最低額・終期は未確認,R8積立予算30.59558億円,3.33536,目的事業に全部又は一部処分可能・繰替運用可能,新設直後かつR8から支出開始のため事業パイプライン確認前は1-3年中心,<=1y/1-3y,EHIME-PPP-FUND;EHIME-BUDGET-R8-EXPLANATION,high
+企業立地促進基金,active_new,先端・地域特性産業の企業立地を促進し地域経済・雇用創出,基金積立額50億円,50億円積立,23.25831,条例で目的事業に全部又は一部処分可能・繰替運用可能,R8取崩が積立額の約46.5%に達するため高回転資金として扱う,cash/<=1y/1-3y,EHIME-ENTERPRISE-LOCATION-FUND;EHIME-BUDGET-R8-EXPLANATION,high
+企業立地資金貸付基金,active_revolving,企業立地等の貸付原資,固定最低額は未確認,R8取崩2.09億円,2.08592,基金資産は現金だけでなく貸付債権へ循環,新規貸付予定と既存回収予定をALM負債資産両側に置き現金余剰だけ運用,cash/<=1y matched to lending,EHIME-BUDGET-R8-EXPLANATION;EHIME-AUDIT-H23-FUNDS,medium_high
+土地開発基金,active_revolving,土地取得等の原資・基金繰替にも反復利用,固定最低額は未確認,R8利子収入予算0.29億円,,基金資産に土地等非現金を含み年度内繰替利用実績もある,現金部分は高流動性維持し土地等を債券運用可能額に含めない,cash/near-cash,EHIME-BUDGET-R8-EXPLANATION;EHIME-AUDIT-H23-FUNDS;EHIME-FS-R3;EHIME-FS-R6,high
+美術品等取得基金,active_fixed_revolving,美術品等取得の定額基金,基金額30億円,R6末:美術品等28.44236408億円・現金1.55763592億円,,基金の大部分は美術品等で非現金,債券運用余地を基金額30億とせず現金1.56億のみを取得予定と照合,cash residual only,EHIME-SETTLEMENT-R6,high
+医師確保奨学基金,active_revolving_loan,医師確保のため奨学金貸与,基金額2.5億円,R6末:貸付金0.9072億円・現金1.5928億円,,基金資産の一部が貸付金で新規貸与も継続,現金は既存受給者への将来貸与スケジュールを優先し余剰のみ短期運用,cash/<=1y/1-3y matched,EHIME-SETTLEMENT-R6,high
+「三浦保」愛基金,active_endowment,寄附株式の配当等を原資に環境・福祉・教育等を支援,固定最低額は未確認,R8配当・利子予算1.14443億円,1.79483,基金原資に寄附株式等の非現金資産を含む,株式等元本を債券化可能現金とみなさず配当・現金残高だけを支出予定と照合,cash income bucket; noncash principal excluded,EHIME-MIURA-FUND;EHIME-BUDGET-R8-EXPLANATION,high
+自転車新文化推進基金,active_donation,自転車新文化推進・関連事業,固定最低額は未確認,R8取崩0.11億円,0.11350,寄附等を活用して目的事業を実施,寄附目的事業の年度支出を優先し残余は短期中心,cash/<=1y,EHIME-BUDGET-R8-EXPLANATION,medium
+森林環境譲与税基金,active_earmarked,森林環境譲与税を原資とする森林整備等,固定最低額は未確認,R8取崩2.09億円,2.09335,使途が森林整備等に限定され年度事業へ繰入,当年度・翌年度の事業予定をcash/短期で保持,cash/<=1y,EHIME-BUDGET-R8-EXPLANATION,medium_high
+スポーツ推進基金,active_program,スポーツ振興,固定最低額は未確認,R8取崩5.31億円,5.31301,R8に相応規模の目的事業取崩,当年度予算額を高流動性として除外し残余は計画確認後に運用,cash/<=1y,EHIME-BUDGET-R8-EXPLANATION,medium
+とべ動物園魅力向上基金,active_program,とべ動物園魅力向上,固定最低額は未確認,R8取崩3.69億円,3.68625,R8に魅力向上事業へ取崩,施設事業工程に合わせ短期満期化,cash/<=1y/1-3y,EHIME-BUDGET-R8-EXPLANATION,medium
