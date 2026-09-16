@@ -1,5 +1,5 @@
 fund_name,rule_type,public_rule,amount_or_formula,horizon_or_end_date,investment_or_disposition_constraint,alm_consequence,source_ids
-災害救助基金,statutory_minimum,災害救助法23条の各年度最少額,原則:直近3年間の普通税収入決算額の平均年額×0.5%,no_sunset,法26条:財政融資資金預託・確実な銀行預金・国債地方債その他確実な債券・救助物資事前購入,法定最少額を割らず短期安全債は法律上利用可能。現行額の計算には普通税内訳が必要,DISASTER-RELIEF-ACT
+災害救助基金,statutory_minimum,災害救助法23条の各年度最少額,原則:当該年度の前年度の前三年間の普通税収入決算額平均×0.5%。R8概算860751.287千円＝8.607513億円（R4-R6普通税から法定外普通税の核燃料税を除いて計算）,no_sunset,法26条:財政融資資金預託・確実な銀行預金・国債地方債その他確実な債券・救助物資事前購入,R8概算法定最少額約8.61億円を割らず短期安全債は法律上利用可能。R8予算は積立金4342千円を計上,DISASTER-RELIEF-ACT;EHIME-TAX-R4;EHIME-TAX-R5;EHIME-TAX-R6;EHIME-BUDGET-R8-DISASTER
 財政基盤強化積立金＋県債管理基金,policy_floor,財政運営基本方針の財源対策用基金安定確保目標,400億円規模,R5-R8,災害・感染症等の予見困難リスクへの機動対応,400億円相当をcash/near-cash/需要時期までの短期安全資産としてring-fence,EHIME-POLICY-2023
 安心こども基金,sunset,基金事業公表資料の終了予定,公表残高797406千円,新規採択R11年度末・基金解散R12年6月末,目的事業に使用し終期あり,解散時期を超える満期設定をしない。採択済事業の支払予定を優先,EHIME-ANSHIN-KODOMO
 公立学校情報機器整備基金,sunset_and_national_return,条例概要で事業期間・廃止・残額処理を明示,R5積立836269千円,R6-R10事業・R11-03-31廃止,残額がある場合は国庫納付,長期core対象外。R10までの支出予定に満期を合わせる,EHIME-SCHOOL-DEVICE-FUND
