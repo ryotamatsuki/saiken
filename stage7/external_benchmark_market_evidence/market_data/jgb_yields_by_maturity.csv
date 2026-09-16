@@ -1,0 +1,6 @@
+observation_date,tenor_years,yield_pct,measure,issue,source_id,comparability_note
+2026-08-19,1,1.4332,auction_average_yield,T-Bill_1401,MOF-TBILL-1401,"約1年のprimary auction yield; BOJ 2026-08の1年定期とnear-date比較可能"
+2026-08-28,2,1.708,auction_average_yield,JGB2Y_488,MOF-JGB2-488,"2年primary auction yield; 2年預金のBOJ標準系列は未取得"
+2026-09-08,5,2.239,auction_average_yield,JGB5Y_187,MOF-JGB5-187,"5年primary auction yield; 5年預金のBOJ標準系列は未取得"
+2026-09-01,10,2.995,auction_average_yield,JGB10Y_383,MOF-JGB10-383,"10年primary auction yield; 同年限預金比較なし"
+2026-09-15,20,3.856,auction_average_yield,JGB20Y_197,MOF-JGB20-197,"20年primary auction yield; maturity architecture referenceのみ"
