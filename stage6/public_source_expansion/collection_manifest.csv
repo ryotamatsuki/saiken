@@ -1,0 +1,10 @@
+group,file,status,primary_scope
+R7 settlement,r7_settlement_public_sources_20260916.csv,complete_to_current_publication,R7決算提出済資料・未公表詳細資料
+R7 settlement,r7_settlement_availability_note.md,complete_to_current_publication,R7決算利用可能範囲と留保
+Finance affairs,finance_affairs_catalog_H14_R8.csv,complete_catalog,平成14年5月～令和8年5月49件
+Finance affairs,finance_affairs_cashflow_findings.md,verified_recent_cashflow_pattern,R3～R7基金繰替借入返済時期
+Public funds policy,public_funds_policy_sources.csv,complete_public_search,現行参照・H23本文・関連法規
+Public funds policy,public_funds_policy_public_status.md,complete_public_search,最新方針本文未公表確認の留保
+Major funds,major_funds_cashflow_source_register.csv,materiality_pass,R8取崩上位15基金95.717%カバー
+Major funds,major_funds_cashflow_reconstruction.md,client_ready_input,1～5年cash-flow復元可能性
+QA,source_collection_qa.md,pass_with_two_disclosure_gaps,取得範囲・更新トリガー
