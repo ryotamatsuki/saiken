@@ -1,0 +1,7 @@
+fiscal_year,reported_ordinary_tax_revenue_thousand_yen,extrastatutory_ordinary_tax_nuclear_fuel_thousand_yen,eligible_ordinary_tax_for_disaster_relief_thousand_yen,source_id
+R4,167120700,1112363,166008337,EHIME-TAX-R4
+R5,171375538,1675499,169700039,EHIME-TAX-R5
+R6,182669201,1926805,180742396,EHIME-TAX-R6
+R4-R6_average,,,172150257.333333,calculated
+R8_statutory_minimum_0.5pct,,,860751.286667,DISASTER-RELIEF-ACT
+R8_budgeted_fund_accumulation,,,4342,EHIME-BUDGET-R8-DISASTER
