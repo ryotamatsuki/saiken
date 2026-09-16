@@ -1,0 +1,13 @@
+fund_name,rule_type,public_rule,amount_or_formula,horizon_or_end_date,investment_or_disposition_constraint,alm_consequence,source_ids
+災害救助基金,statutory_minimum,災害救助法23条の各年度最少額,原則:直近3年間の普通税収入決算額の平均年額×0.5%,no_sunset,法26条:財政融資資金預託・確実な銀行預金・国債地方債その他確実な債券・救助物資事前購入,法定最少額を割らず短期安全債は法律上利用可能。現行額の計算には普通税内訳が必要,DISASTER-RELIEF-ACT
+財政基盤強化積立金＋県債管理基金,policy_floor,財政運営基本方針の財源対策用基金安定確保目標,400億円規模,R5-R8,災害・感染症等の予見困難リスクへの機動対応,400億円相当をcash/near-cash/需要時期までの短期安全資産としてring-fence,EHIME-POLICY-2023
+安心こども基金,sunset,基金事業公表資料の終了予定,公表残高797406千円,新規採択R11年度末・基金解散R12年6月末,目的事業に使用し終期あり,解散時期を超える満期設定をしない。採択済事業の支払予定を優先,EHIME-ANSHIN-KODOMO
+公立学校情報機器整備基金,sunset_and_national_return,条例概要で事業期間・廃止・残額処理を明示,R5積立836269千円,R6-R10事業・R11-03-31廃止,残額がある場合は国庫納付,長期core対象外。R10までの支出予定に満期を合わせる,EHIME-SCHOOL-DEVICE-FUND
+県立高等学校等教育改革推進基金,fixed_program_horizon,条例概要の国事業期間,積立60000千円,R8-R10,目的事業に全部又は一部処分可能,3年以内の満期に限定し長期core対象外,EHIME-HIGHSCHOOL-REFORM-FUND
+企業立地促進基金,large_new_program,条例概要で基金への積立額,50億円,explicit_sunset_not_found,目的事業に全部又は一部処分可能・繰替運用可能,R8取崩23.26億円を踏まえ高回転。残高全体をcoreにしない,EHIME-ENTERPRISE-LOCATION-FUND;EHIME-BUDGET-R8-EXPLANATION
+地域環境保全基金,ordinance_base_amount,条例上の基金額と追加積立,4億円＋追加積立可,explicit_sunset_not_found,目的事業に特に必要な場合は全部又は一部処分可能,4億円を法定最低額とは解釈しない。予算化事業・災害廃棄物対応分を優先して流動性確保,EHIME-REGIONAL-ENV-FUND
+美術品等取得基金,fixed_revolving_asset,決算上の基金額,30億円,no_sunset,R6末は美術品等28.44236408億円＋現金1.55763592億円,基金額30億円を債券化可能額に数えず現金部分だけを取得予定と照合,EHIME-SETTLEMENT-R6
+医師確保奨学基金,fixed_revolving_loan,決算上の基金額,2.5億円,no_sunset,R6末は貸付金0.9072億円＋現金1.5928億円,貸付金は債券化対象外。現金は将来貸与予定を控除した余剰だけ運用,EHIME-SETTLEMENT-R6
+国民健康保険財政安定化基金,statutory_stabilization,国保財政安定化の貸付・交付基金,公表残高66.17497億円,end_date_not_set,財源不足発生時に貸付・交付,制度上の貸付交付余力を高流動性で保持,EHIME-NHI-STAB
+後期高齢者医療財政安定化基金,statutory_stabilization,保険料不足・給付費見込誤り等の財政不足へ貸付・交付,国・県・広域連合各1/3負担,end_date_not_set,財政不足時の貸付・交付,ストレス対応基金として必要貸付余力を高流動性で保持,EHIME-ELDERLY-MED-STAB
+「三浦保」愛基金,endowment_non_cash_principal,寄附された三浦工業株式の配当金を原資に公益事業,株式100万株寄附が基金創設原資,no_sunset,株式という非現金原資を保有し配当を事業財源に活用,株式元本を現預金→債券転換の母数に入れない。配当・現金部分のみALM対象,EHIME-MIURA-FUND
