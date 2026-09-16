@@ -1,0 +1,20 @@
+source_id,owner,title,period,url,role
+NIKKEI-2026-09-13,日本経済新聞,自治体の国債購入が急増、100倍の1.6兆円に　課題は「運用力格差」,2026-09-13,https://www.nikkei.com/article/DGXZQOUB224S30S6A720C2000000/,問題提起・地方公共団体部門の国債財投債保有残高163億円→約1.6兆円
+BOJ-FFA-METHOD,日本銀行,資金循環統計の作成方法,現行,https://www.boj.or.jp/statistics/outline/exp/data/exsj02.pdf,地方公共団体部門の国債財投債保有額の推計方法・時価評価
+BOJ-POLICY-2024-03,日本銀行,金融政策の枠組みの見直し,2024-03-19,https://www.boj.or.jp/mopo/outline/ref_qqe.htm,マイナス金利政策・YCC終了
+BOJ-POLICY-2024-07,日本銀行,金融市場調節方針の変更および長期国債買入れの減額計画,2024-07-31,https://www.boj.or.jp/mopo/mpmdeci/state_2024/k240731a.htm,政策金利0.25%・長期国債買入れ減額
+BOJ-POLICY-2025-01,日本銀行,金融市場調節方針の変更,2025-01-24,https://www.boj.or.jp/mopo/mpmdeci/state_2025/k250124a.htm,政策金利0.5%
+BOJ-POLICY-2025-06,日本銀行,当面の金融政策運営について,2025-06-17,https://www.boj.or.jp/mopo/mpmdeci/state_2025/k250617a.htm,国債買入れ減額計画中間評価
+BOJ-POLICY-2025-12,日本銀行,金融市場調節方針の変更,2025-12-19,https://www.boj.or.jp/mopo/mpmdeci/state_2025/k251219a.htm,政策金利0.75%
+BOJ-POLICY-2026-06,日本銀行,2026年6月金融政策決定会合・政策金利1.0%,2026-06-16,https://www.boj.or.jp/mopo/mpmdeci/state_2026/,政策金利1.0%
+MOF-JGB-2025,財務省,令和7年度国債発行計画について,2025-02,https://www.mof.go.jp/public_relations/finance/202502/202502f.html,2024年末10年金利1.1%付近・金融政策見直しと国債市場
+MOF-JGB-2026,財務省,令和8年度国債発行計画について,2026-03,https://www.mof.go.jp/public_relations/finance/202603/202603f.html,2025年末10年金利2.0%台・2025年の国債市場要因
+MOF-JGB-AUCTION-2026-09,財務省,10年国債入札結果,2026-09-01,https://www.mof.go.jp/english/policy/jgbs/auction/calendar/eresul/eresul20260901.htm,10年国債平均落札利回り2.995%
+BOJ-DEPOSIT-RATES,日本銀行,預金種類別店頭表示金利の平均年利率等,2024-2026,https://www.stat-search.boj.or.jp/ssi/mtshtml/ir02_m_1.html,1千万円以上1年定期・普通預金の平均金利推移
+TOKYO-R7-PLAN,東京都,令和7年度公金管理計画,2025-03-31,https://www.metro.tokyo.lg.jp/information/press/2025/03/2025033130,基金債券割合35%程度・R8 40%想定・金利上昇局面の運用方針
+TOKYO-R8-PLAN,東京都,令和8年度公金管理計画,2026-03-30,https://www.metro.tokyo.lg.jp/information/press/2026/03/2026033034,複合ラダー型・R8債券43%想定
+TOKYO-ASSEMBLY-2025,東京都議会,財政委員会速記録,2025,https://www.gikai.metro.tokyo.lg.jp/record/financial/2025-13.html,預金より相対的に利回りが見込める債券活用の説明
+MUSASHINO-POLICY-2025,武蔵野市,武蔵野市資金管理方針について,2025-02-28,https://www.city.musashino.lg.jp/shiseijoho/zaisei/zaiseijokyo/1010235.html,金利上昇を受けた方針改正・満期保有・分散・債券対象拡大
+KASUGAI-BOND-2024,春日井市,基金の運用・財政状況公表,2024-2026,https://www.city.kasugai.lg.jp/shisei/zaisei/1035283.html,2024年9月から債券運用・地方債政府保証債等
+HYOGO-R7-INVESTMENT,兵庫県,令和7年度資金運用実績,2025年度,https://web.pref.hyogo.lg.jp/kk21/documents/r8keikaku.pdf,R7新規債券購入668億円・平均年限6.21年・年限分散
+STAGE3-NATIONAL,ryotamatsuki/saiken,全国都道府県における基金・公金の債券運用実態,R7中心,https://github.com/ryotamatsuki/saiken/blob/main/stage3/reports/national_prefecture_public_fund_bond_investment_R7.md,全国一律に債券比率が上昇したとは限らない反証・比較基盤
