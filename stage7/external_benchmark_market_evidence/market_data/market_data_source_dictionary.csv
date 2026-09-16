@@ -1,0 +1,10 @@
+source_id,owner,title,date_or_period,official_url,evidence_role,comparability_note,last_checked
+BOJ-IR02,日本銀行,預金種類別店頭表示金利の平均年利率等（月次）,2022-04_to_2026-08,https://www.stat-search.boj.or.jp/ssi/mtshtml/ir02_m_1.html,"1000万円以上1年定期・普通預金の月次金利","自治体実際の入札預金金利ではなく金融機関店頭表示平均",2026-09-16
+BOJ-SERIES-LIST,日本銀行,主要時系列統計データ表・掲載データ一覧,current,https://www.stat-search.boj.or.jp/info/nme_Mdframe.html,"利用可能な標準預金金利系列の確認","主要時系列では1000万円以上1年定期と普通預金を掲載",2026-09-16
+MOF-JGB-RATE,財務省,国債金利情報,current,https://www.mof.go.jp/jgbs/reference/interest_rate/index.htm,"主要年限国債金利の公式配布元","CSVはtext/csvのため本環境で直接取込不可; URLと方法論を記録",2026-09-16
+MOF-JGB-ALLCSV,財務省,国債金利情報 全期間CSV,2002-08_onward,https://www.mof.go.jp/jgbs/reference/interest_rate/data/jgbcm_all.csv,"1/2/3/5/7/10/20年等の同一定義時系列候補","公開CSVだが本実行環境のcontent-type制約で未取込",2026-09-16
+MOF-TBILL-1401,財務省,国庫短期証券第1401回入札結果,2026-08-19,https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20260819.htm,"1年国債相当のprimary auction yield","1年定期とのnear-date比較に使用",2026-09-16
+MOF-JGB2-488,財務省,2年利付国債第488回入札結果,2026-08-28,https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20260828.htm,"2年primary auction yield","同年限預金系列未取得",2026-09-16
+MOF-JGB5-187,財務省,5年利付国債第187回入札結果,2026-09-08,https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20260908.htm,"5年primary auction yield","同年限預金系列未取得",2026-09-16
+MOF-JGB10-383,財務省,10年利付国債第383回入札結果,2026-09-01,https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20260901.htm,"10年primary auction yield","同年限預金比較なし",2026-09-16
+MOF-JGB20-197,財務省,20年利付国債第197回入札結果,2026-09-15,https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20260915.htm,"20年primary auction yield","長期参考; 初期愛媛モデルへの採用を意味しない",2026-09-16
