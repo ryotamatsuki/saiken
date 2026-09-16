@@ -1,0 +1,8 @@
+as_of,deposit_tenor_years,bond_tenor_years,deposit_pct,bond_pct,spread_bp,comparison_status,note
+2026-08,1,1,0.447,1.4332,98.62,matched_near_date,"BOJ 2026-08月次1年定期 vs MOF 2026-08-19 1年T-Bill入札平均利回り"
+2026-08,1,2,0.447,1.708,126.10,term_extension_not_maturity_matched,"1年預金から2年国債へ期間延長した参考差; 同年限比較ではない"
+2026-09,1,5,0.447,2.239,179.20,term_extension_not_maturity_matched,"1年預金から5年国債へ期間延長した参考差; 同年限比較ではない"
+2026-09,1,10,0.447,2.995,254.80,term_extension_not_maturity_matched,"1年預金から10年国債へ期間延長した参考差; 同年限比較ではない"
+2026-09,1,20,0.447,3.856,340.90,term_extension_not_maturity_matched,"1年預金から20年国債へ期間延長した参考差; 同年限比較ではない"
+2026-09,2,2,,1.708,,not_directly_comparable,"BOJ主要時系列に2年・1000万円以上定期の系列を確認できず"
+2026-09,5,5,,2.239,,not_directly_comparable,"BOJ主要時系列に5年・1000万円以上定期の系列を確認できず"
