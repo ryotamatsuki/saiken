@@ -1,88 +1,80 @@
-# Stage 4 — 愛媛県基金の債券運用余地・ALM分析
+# Stage 4 — 愛媛県基金の債券運用・ALM分析
 
-調査基準日：2026-09-15
+調査基準日：2026-09-16
 
-Stage 4 は、Stage 3の全国比較をベンチマークとして、愛媛県のR3～R6基金繰替運用、R2～R6基金残高、基金別取崩構造、財源対策用基金、災害ストレスを統合し、必要流動性と債券運用可能レンジを推計する。
+Stage 4 は、全国都道府県のR7以降の公金・基金運用、自治体の国債・財投債保有急増の背景、愛媛県のR3～R6基金繰替、R2～R6基金残高、財政運営基本方針、R8予算、基金条例・決算を統合し、必要流動性と債券運用可能レンジ、モデル満期ラダーを分析する。
 
-2026-09-16追補として、愛媛県「財政運営基本方針」（R5～R8）をALM制約へ明示的に統合した。財源対策用基金400億円規模、中期財政見通しR6～R8財源不足333億円、豪雨時183億円、地方交付税減少407億円、県有施設更新費平均180億円/年等は、役割を分けてモデルへ反映する。
+## Canonical consulting report
 
-さらに2026-09-16の基金別下調べとして、条例・法令・R8当初予算・R6決算・基金個別公表資料を調査し、基金ごとの用途、法定・政策上の保持制約、事業終期、予算上の取崩し、非現金資産を構造化した。これにより、全体キャッシュフローから求めるtop-down ALMに加えて、基金別用途から求めるbottom-up ALMで検証できる基礎を整備した。
+- `reports/ehime_fund_bond_management_consulting_report_R7_R8.md`
+  - **「愛媛県における基金の債券運用高度化に向けた調査分析 ― 全国のR7以降の運用動向、必要流動性及び基金別ALMからみた運用余地 ―」**
+  - 愛媛県の基金担当者向けに、全国動向、国債保有急増の背景、現預金・債券配分、類似団体、基金用途、必要流動性、債券運用余地、モデル・ポートフォリオ、リスク、ガバナンス、ロードマップを1冊に統合。
+  - 最終QA：`qa/final_consulting_report_audit.md`
+  - 判定：**FINAL CONSULTING REPORT PASS**
 
-## 最終レポート
+## 固定構成
 
-- `reports/ehime_fund_bond_capacity_ALM_R7.md`
-  - 「愛媛県基金の債券運用余地 ―必要流動性、基金繰替運用、ALM及び全国比較からみた適正ポートフォリオ―」
-- `reports/fiscal_management_policy_integration_note.md`
-  - 財政運営基本方針を流動性フロア・中期財政圧力・ストレステスト・予定負債へ分解した追補メモ
-- `reports/fund_ordinance_budget_research_note.md`
-  - 条例・予算・決算に基づく基金別用途・保持制約・終期・非現金資産とbottom-up ALMの調査メモ
+- `reports/FINAL_REPORT_STRUCTURE_FREEZE_20260916.md`
+  - Executive Summary＋第1～15章＋結論＋付録＋出典・参考資料。
+  - 事実と考察を分離。
+  - 全国レポート等の内部成果物は調査基盤として再利用するが、最終読者に別資料参照を要求しない。
+  - 愛媛県の非公表R7実運用は推定しない。
+  - 第11章は実運用の再現ではなく、公開情報から導くモデル・ポートフォリオと満期ラダー。
 
-## 主要成果物
+## 主要な調査モジュール
 
-- `processed/ehime_fund_substitution_R3_R6_long.csv` — R3～R6基金別・期間別繰替64行
-- `processed/ehime_fund_substitution_period_totals.csv` — 16期間合計
-- `processed/ehime_fund_substitution_stats.csv` — 年度別最大・最小・平均・中央値・期間加重平均
-- `processed/ehime_fund_substitution_seasonal_stats.csv` — 4～5月・夏期・秋期・年度末の季節統計
-- `processed/ehime_fund_balance_R2_R6.csv` — 基金総額・主要基金残高
-- `processed/ehime_major_fund_5yr_long.csv` — 主要基金5年推移・確認できた積立取崩
-- `processed/ehime_other_specific_fund_flows_R2_R6.csv` — その他特定目的基金の積立取崩
-- `processed/ehime_fund_classification.csv` — 基金のALM類型
-- `processed/ehime_liquidity_distribution.csv` — 16期間の分布統計
-- `processed/ehime_liquidity_bond_scenarios.csv` — 保守・標準・積極3ケース
-- `processed/ehime_income_sensitivity.csv` — 一般的な増収感応度
-- `processed/ehime_scenario_income_sensitivity.csv` — 3ケース別増収感応度
-- `processed/ehime_national_benchmark.csv` — R7直接比較県との外部妥当性チェック
-- `processed/evidence_table.csv` — 学術・国際実務エビデンス
-- `processed/ehime_fiscal_management_policy_constraints.csv` — 財政運営基本方針のALM制約一覧
-- `processed/ehime_medium_term_fiscal_outlook_R6_R8.csv` — R6～R8財源不足122・113・98億円
-- `processed/ehime_fiscal_buffer_policy_history.csv` — 財源対策用基金の実績・400億円目標・R7見込み
-- `processed/ehime_policy_overlay_scenario_check.csv` — 3ケースと政策制約の整合確認
-- `processed/ehime_fund_current_universe_R8.csv` — R8予算・R6決算等から現存証拠を確認したworking current universe
-- `processed/ehime_R8_fund_withdrawals.csv` — R8一般会計の基金繰入32基金・計351.85764億円
-- `processed/ehime_fund_ordinance_liquidity_register.csv` — 主要基金の用途・保持制約・推奨満期bucket
-- `processed/ehime_fund_statutory_sunset_rules.csv` — 法定最少額・政策フロア・終期・国庫返還・非現金元本等のハード制約
-- `processed/ehime_fund_historical_universe_H23_status_map.csv` — H23包括外部監査48基金と2026 working statusの対応
-- `charts/fig1`～`fig9` — 指定9図
-- `sources/source_dictionary.csv` — Source ID・一次資料
-- `qa/final_audit.md` — Stage4最終監査
-- `qa/fiscal_policy_integration_audit.md` — 財政運営基本方針統合監査
-- `qa/fund_ordinance_budget_research_audit.md` — 条例・予算・基金別制約調査監査
+- `reports/ehime_fund_bond_capacity_ALM_R7.md` — 初期ALM分析。
+- `reports/fiscal_management_policy_integration_note.md` — 財政運営基本方針のALM制約化。
+- `reports/fund_ordinance_budget_research_note.md` — 条例・予算・決算による基金別bottom-up調査。
+- `research/jgb_purchase_surge_background_20260916.md` — 地方公共団体の国債・財投債保有急増の背景調査。
 
-## 財政運営基本方針を踏まえた追加ルール
+## 主要データ
 
-財源対策用基金400億円規模は、普通預金だけに限定せずとも、cash・near-cash・需要時期までに満期償還する短期安全資産の範囲で常時ring-fenceする政策上の流動性フロアとして扱う。
+- `processed/ehime_fund_substitution_R3_R6_long.csv` — R3～R6基金別・期間別繰替64行。
+- `processed/ehime_fund_substitution_period_totals.csv` — 16期間合計。
+- `processed/ehime_fund_substitution_seasonal_stats.csv` — 4～5月・夏期・秋期・年度末の季節統計。
+- `processed/ehime_liquidity_distribution.csv` — 中央値、P75、P90、最大等。
+- `processed/ehime_liquidity_bond_scenarios.csv` — 保守・標準・積極3ケース。
+- `processed/ehime_scenario_income_sensitivity.csv` — 預金対比スプレッド別増収感応度。
+- `processed/ehime_fiscal_management_policy_constraints.csv` — 財政運営基本方針の制約。
+- `processed/ehime_R8_fund_withdrawals.csv` — R8一般会計32基金、計351.85764億円の取崩予算。
+- `processed/ehime_fund_ordinance_liquidity_register.csv` — 主要基金の用途・保持制約・推奨満期bucket。
+- `processed/ehime_fund_statutory_sunset_rules.csv` — 法定最低額・政策フロア・終期・国庫返還・非現金元本等。
+- `processed/ehime_peer_comparison_R7_R8.csv` — 公式CグループとALM類似団体の比較。
+- `processed/ehime_model_ladder_standard_case.csv` — 標準ケース435.3155億円の例示満期ラダー。
 
-西日本豪雨183億円、H16～18地方交付税減少407億円、R6～R8財源不足333億円は相互に重複する財政リスクであり、400億円へ単純加算しない。183・407億円はストレステスト、333億円は1～3年満期ラダー、県有施設更新費平均180億円/年は中長期予定負債の設計に利用する。
+## 図表
 
-現行3ケースの1年以内流動性資産は、保守1,151.01億円、標準968.01億円、積極932.76億円であり、いずれも400億円政策フロアを上回る。このため、現時点では債券運用可能額の数値自体は変更しない。ただし、財源対策用基金400億円相当を普通の中長期コア運用へ回さないという基金別制約を追加する。
+- `charts/fig1`～`fig9` — 基金残高、基金繰替、3シナリオ、収益感応度等。
+- `charts/fig10_R7_direct_cash_bond_allocation.svg` — R7直接比較5県の現預金・債券構成。
+- `charts/fig11_standard_case_maturity_ladder.svg` — 標準ケースのモデル満期ラダー。
 
-## 条例・予算・決算を踏まえたbottom-up ALM
+## 出典
 
-基金別の債券運用余地は、基金残高そのものではなく、原則として次式で検証する。
+- `sources/source_dictionary.csv` — 愛媛県ALM・基金条例等の主要Source ID。
+- `sources/jgb_purchase_surge_source_dictionary.csv` — 国債保有急増背景のSource ID。
+- `sources/consulting_report_source_supplement_20260916.csv` — 類似団体等の追加一次資料。
 
-`Core investable_i = cash balance_i - statutory/policy floor_i - approved 12m withdrawals_i - committed 1-3y pipeline_i - stress reserve_i - revolving/non-cash requirements_i`
+最終レポート末尾にも、国・公的機関、愛媛県、他都道府県・自治体、国際機関・学術文献、報道・補助資料の5区分で出典・参考資料を収録している。
 
-R8一般会計では32基金から合計351.85764億円の基金繰入が予算化されている。ただし、R6末基金総額とR8予算は基準時点・母集団が異なり、新設基金も含むため、この351.86億円をR6基金総額から一括控除しない。基金別R7末又はR8期首現金残高と接続して使用する。
+## 現時点の中心結果
 
-法定・制度上の制約が特に強い基金は別管理する。災害救助基金は災害救助法上の最少額、財源対策用基金は400億円規模の政策フロア、公立学校情報機器整備基金等は明示された事業終期・廃止日、国保・後期高齢者医療等の財政安定化基金は不足時の貸付・交付余力を優先する。
+R6基金総額1,302.28億円を共通分母とするtop-downの政策レンジは次のとおり。
 
-また、美術品等取得基金、医師確保奨学基金、「三浦保」愛基金、土地開発基金等は美術品・貸付金・株式・土地等の非現金資産を含むため、基金額全体を債券化可能現金とみなさない。
+- 保守：151.27億円、11.6％
+- 標準：435.32億円、33.4％
+- 積極：574.70億円、44.1％
 
-現行の保守・標準・積極3ケースは全体資金繰りからみたouter envelopeとして維持し、最終レポート改訂時には、この基金別bottom-up制約の合計が標準ケース435.32億円を支えられるかを再検証する。
+これは「最適額」ではなくscenario envelopeである。標準ケースは過去最大基金繰替968.01億円を、即時現金・near-cash・1年以内満期債で100％カバーする。
 
-## 中心結果
+R7末又はR8期首の基金別現金残高は、R7決算関係が令和8年9月議会で審議中のため現時点では取得対象外としている。このため基金別bottom-upの合計による最終的な債券運用可能額は、R7決算公表後の更新事項である。
 
-R6基金総額1,302.28億円を基準に、公表情報だけで構築した政策レンジは次のとおり。
+## QA
 
-- 保守：債券151.27億円、11.6％
-- 標準：債券435.32億円、33.4％
-- 積極：債券574.70億円、44.1％
+- `qa/final_audit.md` — 初期Stage4監査。
+- `qa/fiscal_policy_integration_audit.md` — 財政運営基本方針統合監査。
+- `qa/fund_ordinance_budget_research_audit.md` — 条例・予算・基金別制約監査。
+- `qa/jgb_purchase_surge_background_audit.md` — 国債保有急増背景調査監査。
+- `qa/final_consulting_report_audit.md` — canonical consulting report最終監査。
 
-標準ケースは、過去最大基金繰替968.01億円を、即時現金・near-cash・1年以内満期債で100％カバーする。これは統計的な最適比率ではなく、ALMの政策設計レンジである。
-
-R3～R6の基金繰替は16期間で203.51～968.01億円。季節平均は4～5月775.72億円、夏期325.31億円、秋期614.24億円、年度末782.29億円であり、ピーク額を365日すべて即時現金で持つ必要性は確認できない。一方、基金が年度内資金繰りに大きく使われているため、全国の高債券比率県をそのまま模倣することもできない。
-
-2026-09-15時点でR7基金全体の実際債券残高は公表資料から確定できないため、R6値で代替していない。R7財源対策用基金残高436億円見込みは補助事実としてのみ扱う。
-
-Stage4最終判定：**FINAL EHIME ALM REPORT QA PASS**  
-基金条例・予算調査判定：**FUND ORDINANCE/BUDGET RESEARCH QA PASS**
+最終判定：**FINAL CONSULTING REPORT PASS**
