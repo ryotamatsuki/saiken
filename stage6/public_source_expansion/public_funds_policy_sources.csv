@@ -1,0 +1,10 @@
+source_id,title,date_or_status,official_url,public_status,usable_rule_or_fact,limitation
+EHIME-CASH-POLICY-H23-QUOTE,愛媛県公金管理方針（H23包括外部監査報告書中の引用）,H23時点,https://www.pref.ehime.jp/uploaded/attachment/37467.pdf,available_historical_text,"安全性・流動性・効率性の確保、元本安全性最重視、預金先健全性、資金計画、預金以外は安全な金融商品、原則満期保有、例外的中途解約/売却、債券運用等",現行最新版本文とは断定しない
+EHIME-R8-BUDGET-COMPILATION,令和8年度当初予算編成方針,2025-10-23,https://www.pref.ehime.jp/uploaded/attachment/163824.pdf,available_current_reference,"基金及び歳計現金について公金管理方針を踏まえ一層の効率的な運用に努める旨",方針本文自体は添付されていない
+EHIME-CASH-POLICY-CURRENT-TEXT,愛媛県公金管理方針 最新版本文,2026-09-16 search, ,not_found_public,"現行予算編成で方針が参照されているため制度の存在は確認",最新条文・改定日・対象商品・年限等は公開検索で確認できない
+LOCAL-AUTONOMY-ACT,地方自治法,現行,https://elaws.e-gov.go.jp/document?lawid=322AC0000000067,available,"歳計現金の確実かつ有利な方法による保管、基金の確実かつ効率的な運用等の上位法枠組み",個別商品・年限等は定めない
+EHIME-FUND-ORDINANCES,各基金条例,現行各条例,https://www.pref.ehime.jp/soshiki/5/index-2.html,available_distributed,"多くの基金で現金を金融機関への預金その他最も確実かつ有利な方法で保管、目的処分、確実な繰戻し条件で歳計現金への繰替運用",基金ごとに確認が必要
+EHIME-FOREST-FUND-GOVERNANCE,森林環境保全基金条例・運営委員会規則,現行,https://www.pref.ehime.jp/uploaded/attachment/175100.pdf,available,"基金条例に保管・処分・繰替運用、外部委員を含む運営委員会の調査審議と公開会議",公金全体の投資policyではない
+EHIME-AUDIT-FUND-EXAM,基金運用状況審査に関する監査基準・意見,現行監査制度,https://www.pref.ehime.jp/soshiki/79/,available,"基金運用が設置目的に沿って確実かつ効率的に行われているかを審査する監査枠組み",運用limitそのものではない
+EHIME-ACCOUNTING-DIVISION,出納局会計課公式ページ,2026-09-16,https://www.pref.ehime.jp/soshiki/113/index.html,available,"基金・歳計現金等の出納・保管・運用を担う組織上の所管確認",具体的な投資権限表・limitは公開確認できない
+EHIME-ACCOUNTING-RULE,愛媛県会計規則,現行参照,https://www.pref.ehime.jp/,partially_public_searchable,"県の会計事務に関する一般規則として現行の行政実務で参照される",公開検索で公金投資商品・年限を定める条項は確認できない
