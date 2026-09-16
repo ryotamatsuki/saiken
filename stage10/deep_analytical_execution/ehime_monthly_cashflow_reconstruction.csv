@@ -1,0 +1,13 @@
+month,seasonal_period,period_mean_fund_substitution_oku_yen,period_cv,observed_or_inferred_event,evidence_status,cash_pressure_assessment,warning
+4,1,775.7175,0.079806,年度初め借入が反復,確認事実,高,period mean proxy; not actual monthly cash balance
+5,1,775.7175,0.079806,4～5月借入期間,確認事実,高,period mean proxy; not actual monthly cash balance
+6,2,325.3075,0.36413,4・5月借入の返済途上,分析,低～中,period mean proxy; not actual monthly cash balance
+7,2,325.3075,0.36413,8月までに返済,確認事実,中,period mean proxy; not actual monthly cash balance
+8,2,325.3075,0.36413,既存借入を返済後8月に再借入,確認事実,転換月,period mean proxy; not actual monthly cash balance
+9,3,614.2375,0.189163,8月再借入後の期間,分析,中,period mean proxy; not actual monthly cash balance
+10,3,614.2375,0.189163,8月再借入後の期間,分析,中,period mean proxy; not actual monthly cash balance
+11,3,614.2375,0.189163,11月に追加借入,確認事実,高,period mean proxy; not actual monthly cash balance
+12,4,782.29,0.195252,11月借入後年度末までの期間,分析,高,period mean proxy; not actual monthly cash balance
+1,4,782.29,0.195252,年度末に向けた期間,分析,高,period mean proxy; not actual monthly cash balance
+2,4,782.29,0.195252,年度末に向けた期間,分析,高,period mean proxy; not actual monthly cash balance
+3,4,782.29,0.195252,3月までに償還完了・期間総額は高水準,確認事実,高,period mean proxy; not actual monthly cash balance

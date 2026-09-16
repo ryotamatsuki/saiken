@@ -1,0 +1,10 @@
+prefecture,fiscal_year,balance_oku_yen,deposits_oku_yen,bonds_oku_yen,bond_ratio_pct,yield_pct,scope,note
+埼玉県,R5,12535,3971,8564,68.3207,0.268,funds_annual_average,"R5-R7で債券比率低下・利回り上昇"
+埼玉県,R6,13146,4387,8759,66.6286,0.349,funds_annual_average,"R5-R7で債券比率低下・利回り上昇"
+埼玉県,R7,13601,4760,8841,65.0026,0.609,funds_annual_average,"R5-R7で債券比率低下・利回り上昇"
+熊本県,R1,2252,1448,804,35.7016,0.274,pooled_public_funds,"基金単独ではなく公金一括運用"
+熊本県,R2,2053,1203,851,41.4515,0.310,pooled_public_funds,"基金単独ではなく公金一括運用"
+熊本県,R3,2044,1155,889,43.4932,0.321,pooled_public_funds,"基金単独ではなく公金一括運用"
+熊本県,R4,2269,1342,928,40.8991,0.308,pooled_public_funds,"基金単独ではなく公金一括運用"
+熊本県,R5,2146,1184,963,44.8742,0.334,pooled_public_funds,"基金単独ではなく公金一括運用"
+熊本県,R6,2805,1827,978,34.8663,0.360,pooled_public_funds,"R6は預金増で債券比率低下・総合利回り上昇"
