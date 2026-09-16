@@ -1,0 +1,2 @@
+input_id,input_name,status,reason,earliest_update_trigger,impact_on_current_analysis
+PENDING-R7-R8-CASH,R7末又はR8期首の基金別現金残高,deferred,令和8年9月議会で決算関係が審議中のため現時点では確定公表資料を前提にしない,9月議会終了後にR7決算・基金別現金残高が公表された時点,bottom-up総債券運用可能額の確定のみ保留。条例・R8予算・R6決算・個別基金資料による用途/保持制約調査は有効
