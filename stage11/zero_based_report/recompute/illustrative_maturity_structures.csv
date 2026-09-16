@@ -1,0 +1,4 @@
+structure,weighted_maturity_years,weighted_reference_yield_pct,modified_duration_proxy,price_effect_+25bp_pct,price_effect_+50bp_pct,price_effect_+100bp_pct,price_effect_-50bp_pct
+短期防御型,2.15,1.69054,2.062296,-0.515574,-1.031148,-2.062296,1.031148
+負債対応型,3.85,1.99165,3.515578,-0.878894,-1.757789,-3.515578,1.757789
+中長期拡大型,6.25,2.35987,5.374875,-1.343719,-2.687437,-5.374875,2.687437
