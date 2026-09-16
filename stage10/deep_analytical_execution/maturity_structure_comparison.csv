@@ -1,0 +1,5 @@
+structure,w_1y,w_2y,w_5y,w_10y,weighted_maturity_years,weighted_reference_yield_pct,duration_proxy,max_single_maturity_share_pct,price_effect_+25bp_pct,price_effect_+50bp_pct,price_effect_+100bp_pct,price_effect_-50bp_pct
+短期重視型,0.4,0.4,0.15,0.05,2.45,1.74208,2.19,40.0,-0.5475,-1.095,-2.19,1.095
+前倒しラダー型,0.3,0.3,0.25,0.15,3.65,1.95136,3.17,30.0,-0.7925,-1.585,-3.17,1.585
+均等ラダー型,0.25,0.25,0.25,0.25,4.5,2.0938,3.85,25.0,-0.9625,-1.925,-3.85,1.925
+中長期重視型,0.1,0.2,0.3,0.4,6.0,2.35462,5.065,40.0,-1.2662,-2.5325,-5.065,2.5325
