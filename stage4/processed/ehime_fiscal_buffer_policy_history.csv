@@ -1,0 +1,5 @@
+period,status,ehime_fiscal_buffer_oku_yen,ehime_to_standard_financial_scale_pct,national_avg_oku_yen,national_avg_to_standard_financial_scale_pct,policy_interpretation,source
+R3,actual,447,12.05,676,11.65,全国平均と同程度の標準財政規模比を確認し400億円規模目標の設定根拠とされた,財政運営基本方針_p14
+R4,actual,491,13.53,674,12.20,全国平均を上回る標準財政規模比。R5-R8は400億円規模の安定確保を目標,財政運営基本方針_p14
+R5-R8,policy_target,400,,, ,災害・感染症等の予見できないリスクへ機動的対応するための政策上の安定確保水準,財政運営基本方針_p12-p14
+R7,forecast,436,,, ,令和8年7月時点のR7財源対策用基金残高見込み。400億円規模目標を上回る見込み,令和8年度7月知事定例記者会見

@@ -1,0 +1,4 @@
+case,instant_cash_oku_yen,near_cash_oku_yen,bond_le_1y_oku_yen,liquidity_le_1y_oku_yen,bond_1_3y_oku_yen,liquidity_le_3y_oku_yen,policy_fund_floor_oku_yen,meets_400_floor,medium_term_shortfall_R6_R8_oku_yen,meets_333_within_3y,specific_fiscal_buffer_mapping_verified,interpretation
+保守,968.01,183.0,0.0,1151.01,90.76005,1241.77005,400,true,333,true,false,総体の流動性は政策フロアを満たす。財源対策用基金400億円を個別にどのバケットへ割当てるかは公表資料では未確認
+標準,765.9125,101.04875,101.04875,968.01,133.7067,1101.7167,400,true,333,true,false,総体の流動性は政策フロアを満たす。400億円相当をcash/near-cash/1年以内満期債としてring-fenceする運用ルールを追加すべき
+積極,659.18,68.39375,205.18125,932.755,110.856525,1043.611525,400,true,333,true,false,総体の流動性は政策フロアを満たすが短期債依存が大きいため400億円の政策バッファは満期日を厳格管理すべき
